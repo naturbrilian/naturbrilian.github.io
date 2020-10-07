@@ -1,4 +1,4 @@
-## Hello fellas, welcome to my shit website
+## Lieba Natur Brilian Diary
 
 My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.com) and my other socmed you can see on [About Me](http://about.me/gingalibadeidara)
 
