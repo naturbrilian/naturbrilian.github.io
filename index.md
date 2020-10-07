@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Hello fellas, welcome to my shit website
 
-You can use the [editor on GitHub](https://github.com/naturbrilian/naturbrilian.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.com) and my other socmed you can see on [About Me](http://about.me/gingalibadeidara)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
