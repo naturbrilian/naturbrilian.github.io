@@ -5,7 +5,7 @@ My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.
 ### Nanako Translation Project
 
 Nanako Translation Project adalah sebuah wadah kecil untuk proyek sebuah translasi yang hanya berfokus untuk penerjemahan software & salah satu sosmed. Untuk halaman proyek bisa dilihat melalui
-[Pranala](http://crowdin.com/profile/naturbrilian) ini dan [disini](http://nanakotranslationproject.hatenablog.com)
+[Pranala](http://crowdin.com/profile/naturbrilian) ini dan [disini](http://nanakotranslation.hatenablog.com)
 
 ```markdown
 Syntax highlighted code block
