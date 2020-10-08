@@ -2,11 +2,10 @@
 
 My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.com) and my other socmed you can see on [About Me](http://about.me/gingalibadeidara)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Nanako Translation Project
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Nanako Translation Project adalah sebuah wadah kecil untuk proyek sebuah translasi yang hanya berfokus untuk penerjemahan software & salah satu sosmed. Untuk halaman proyek bisa dilihat melalui
+[Pranala](http://crowdin.com/profile/naturbrilian) ini dan [disini](http://nanakotranslationproject.hatenablog.com)
 
 ```markdown
 Syntax highlighted code block
