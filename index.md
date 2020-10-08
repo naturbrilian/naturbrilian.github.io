@@ -13,23 +13,20 @@ My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.
 Nanako Translation Project adalah sebuah wadah kecil untuk proyek sebuah translasi yang hanya berfokus untuk penerjemahan software & salah satu sosmed. Untuk halaman proyek bisa dilihat melalui
 [Pranala](http://crowdin.com/profile/naturbrilian) ini dan [disini](http://nanakotranslation.hatenablog.com)
 
-```markdown
-Syntax highlighted code block
+### Proyek yang biasa saya kerjakan
 
-# Header 1
-## Header 2
-### Header 3
+Halo, pastinya kalian tau proyek yang biasa aku kerjakan.. Ya, aku biasanya membuat vektor wallpaper, Dan Chrome Themes untuk mengisi waktu luangku atau sering disebut "gabut", salah satu contohnya
 
-- Bulleted
-- List
+![Tsumugi](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/85e7d122-9025-4c7a-bbd8-7926dda92b64/de5t9in-9249d198-512e-45b0-ad9a-eece955ca760.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODVlN2QxMjItOTAyNS00YzdhLWJiZDgtNzkyNmRkYTkyYjY0XC9kZTV0OWluLTkyNDlkMTk4LTUxMmUtNDViMC1hZDlhLWVlY2U5NTVjYTc2MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.meP3SxEAGue7labR7dT1iaJpCebcOK5hcSv0ALw22yg)
+**Tsumugi Vektor**
 
-1. Numbered
-2. List
+Untuk vektor wallpaper bisa kamu kunjungi melalui [Pranala berikut ini](https://www.deviantart.com/gingalibadeidara/art/Tsumugi-Princess-Connect-Re-Dive-856289903)
 
-**Bold** and _Italic_ and `Code` text
+![Chrome Themes](https://cdn-ak.f.st-hatena.com/images/fotolife/g/gingalibadeidara/20200820/20200820061223.png)
+**Chrome Themes from Android Games Girls Frontline**
 
-[Link](url) and ![Image](src)
-```
+Dan untuk Girls Frontline Chrome, bisa kamu dapatkan melalui [tautan berikut](https://www.deviantart.com/gingalibadeidara/art/GFL-404-Squad-852656374)
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
