@@ -44,3 +44,5 @@ Media Sosial yang sering aktif bisa kamu kunjungi melalui tautan berikut:
 * [Twitter untuk posting karya](http://twitter.com/naturbrilian)
 * [Twitter](http://twitter.com/naturbrilian__)
 * [Deviantart](http://deviantart.com/gingalibadeidara)
+
+[**Menuju halaman Artikel**](http://naturbrilian.github.io/page-02)
