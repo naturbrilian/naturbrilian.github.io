@@ -1,4 +1,5 @@
 ## Lieba Natur Brilian Site
+Lihat [Tentang Saya](http://naturbrilian.github.io/tentang-saya)
 
 ### Lieba Natur Brilian Diary
 
@@ -6,7 +7,6 @@
 
 My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.com) and my other socmed you can see on [About Me](http://about.me/gingalibadeidara)
 
-Fanspage:
 
 ### Nanako Translation Project
 
