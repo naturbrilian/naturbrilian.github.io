@@ -3,7 +3,7 @@ Lihat [Tentang Saya](http://naturbrilian.github.io/tentang-saya)
 
 ### Lieba Natur Brilian Diary
 
-![Lieba Natur Brilian Diary Header](https://pbs.twimg.com/profile_banners/1433241212/1603953091/1500x500)
+![Lieba Natur Brilian Diary Header](https://i.imgur.com/znDfMMu.jpg)
 My Blog you can see on [Naturbrilian Diary Blog](http://naturbrilian.hatenablog.com) and my other socmed you can see on [About Me](http://about.me/gingalibadeidara)
 
 
