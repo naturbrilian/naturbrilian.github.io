@@ -54,7 +54,7 @@
       "studyType": "Student",
       "startDate": "2014-01",
       "endDate": "2017-04",
-      "score": "",
+      "score": "8",
       "courses": ["Practice and theory"]
     }
   ],
@@ -154,7 +154,7 @@
     },
     {
       "language": "English",
-      "fluency": "",
+      "fluency": "fluent",
       "icon": ""
     }
   ],
