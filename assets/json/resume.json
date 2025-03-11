@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Liba Natur Brilian",
-    "label": "Editor and Graphics Designer",
+    "label": "Video Editor and Graphics Designer",
     "image": "",
     "email": "liba.natur.brilian@gmail.com",
     "phone": "(62) 89686865736",
-    "url": "https://naturbrilian.github.io/site",
+    "url": "https://naturbrilian.github.io",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "JL. Balowerti II no. 83",
-      "postalCode": "64129",
+      "address": "Jl. Balowerti II no. 83",
+      "postalCode": "ID 64129",
       "city": "Kediri",
       "countryCode": "ID",
       "region": "Indonesia"
@@ -25,12 +25,12 @@
   "work": [
     {
       "name": "Kediri Televisi",
-      "position": "Video Editor, Social Media Admin and Graphics Designer",
+      "position": "Video Editor",
       "url": "https://www.youtube.com/@kediritelevisi1152",
-      "startDate": "2017-07",
+      "startDate": "2017-05",
       "endDate": "Now",
-      "summary": "As a video editor for YouTube content, and also as a social media admin.",
-      "highlights": ["Relativity"]
+      "summary": "Edit, Managing and Post on Youtube Channel",
+      "highlights": ["Admin"]
     }
   ],
   "volunteer": [
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "SMK TI PELITA NUSANTARA KEDIRI",
-      "location": "Kediri, Indonesia",
-      "url": "",
-      "area": "Multimedia and Broadcasting",
-      "studyType": "Student",
-      "startDate": "2014-01",
-      "endDate": "2017-04",
-      "score": "8",
-      "courses": ["Practice and theory"]
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
+      "studyType": "PhD",
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
@@ -136,39 +136,42 @@
   ],
   "skills": [
     {
-      "name": "Video Editor and Designer",
+      "name": "Physics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Advertising",
-        "News and Media",
-        "Pamflet",
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Indonesian",
-      "fluency": "Fluent",
+      "language": "German",
+      "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "fluent",
+      "fluency": "Fluent",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Designer, Technologies, Gaming and Translating",
+      "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Localization",
-        "Graphics Designer",
-        "Vector and Logo",
-        "Fansubbing",
-        "Game",
-        "Anime"
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
       ]
     }
   ],
