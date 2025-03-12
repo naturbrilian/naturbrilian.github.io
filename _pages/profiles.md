@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: about me
+title: about
 description: more about me
 nav: true
 nav_order: 7
@@ -14,7 +14,7 @@ profiles:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Discord: naturbrilian</p>
+      <p>Facebook: Natur Brilian</p>
+      <p>Kediri, East Java</p>
 ---
