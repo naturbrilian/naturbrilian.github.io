@@ -27,6 +27,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Liba Natur Brilian and also known as Natur or gingalibadeidara, a video editor and graphics designer with a deep passion for technology, art, music and content creator.
 
-Here, I share my recent project like design, video editing, vector, and blogging. I hope this platform can be a space to share inspiration, ideas, and engaging discussions with you.
+Hello i am Lieba Natur Brilian also people call me with Natur. I'm graphics designer, video editor and translator contributor for various services, apps and software. Im also like watching anime and multifandom. Also people know me as gingalibadeidara on another website like alphacoders.
