@@ -2,51 +2,46 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Liba Natur Brilian
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th April 1998
     - name: Languages
-      value: English, German
+      value: Indonesian, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Student
+      institution: SMK TI PELITA NUSANTARA KEDIRI, Kediri, East Java, ID
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Graduates of the 2016/2017 school year
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Broadcasting
+      institution: CBM Academy, Kediri
+      year: 2018
       description:
-        - Description 1.
+        - Broadcasting, studying the institute and learning about of of video editing and broadcasting techniques
         - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Video Editor
+      institution: Kediri Televisi, Kediri, East Java, ID
+      year: 2017 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - As a video editor for YouTube content, and also as a social media admin.
+        - Graphics Designer
+        
+    - title: Video Editor and Graphics Designer
+      institution: The Java Post ID, Kediri, East Java, ID
+      year: 2023 - Now
       description:
-        - Description 1.
-        - Description 2.
+        - Working as Video Editor & Website Admin
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
