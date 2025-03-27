@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "My name is Liba Natur Brilian also known as naturbrilian and Gingalibadeidara for another project | also i have experience on video editor, graphics design and social media admin at Kediri Televisi and [The Java Post ID](https://www.thejavapost.id/) | Also im contributor at Yurasubs as Graphics Design Staff",
           section: "Navigation",
           handler: () => {
             window.location.href = "/site/cv/";
