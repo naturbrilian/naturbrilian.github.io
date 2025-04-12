@@ -36,7 +36,7 @@ If you have any questions, suggestions, or just want to chat, feel free to reach
 
 ### Fediverse / Mastodon ###
 1. Geoplanetary: [@naturbrilian@geoplanetary.net](https://geoplanetary.net/@naturbrilian)
-2. Misskey ID: [@gingalibadeidara@misskey.id](https://misskey.id/@gingalibadeidara)
+2. Sakurajima: [@naturbrilian@sakurajima.social](https://sakurajima.social/@naturbrilian)
 3. Mastodon: [@naturbrilian@mastodon.social](https://mastodon.social/@naturbrilian)
 
 # Project #
