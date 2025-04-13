@@ -48,7 +48,7 @@
   "education": [
     {
       "institution": "SMK TI PELITA NUSANTARA, Kediri, East Java",
-      "location": "Kediri, East Java, Indonesia",
+      "location": "Kediri, East Java",
       "url": "https://www.uzh.ch/",
       "area": "Multimedia",
       "studyType": "Student",
@@ -58,7 +58,7 @@
       "courses": ["Studying about Video Editing, Design, and Programming"]
     }
   ],
-  "awards": [
+  "awar": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
@@ -187,7 +187,7 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "projects": [
+  "pro": [
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
