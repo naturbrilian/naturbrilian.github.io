@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: some projects that I have previously worked on and some examples of previous design commissions and personal projects.
+description: some projects that I have previously worked on and some examples of previous design commissions and projects for fun.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
