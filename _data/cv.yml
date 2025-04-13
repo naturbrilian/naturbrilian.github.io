@@ -16,10 +16,10 @@
       year: 2017
       description:
         - Graduates of the 2016/2017 school year
-        - title: Description 3.
+        - title: Studying about Video Editing, Design, and Programming
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Videography
+            - Design
     - title: Broadcasting
       institution: CBM Academy, Kediri
       year: 2018
@@ -43,9 +43,9 @@
       description:
         - Working as Video Editor & Website Admin
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Freelance Graphics Designer
+      institution: Home, East Java, Indonesia.
+      year: 2022 - Now
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
