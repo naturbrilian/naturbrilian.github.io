@@ -47,7 +47,7 @@
   ],
   "education": [
     {
-      "institution": "SMK TI PELITA NUSANTARA, Kediri, East Java, Indonesia",
+      "institution": "SMK TI PELITA NUSANTARA, Kediri, East Java",
       "location": "Kediri, East Java, Indonesia",
       "url": "https://www.uzh.ch/",
       "area": "Multimedia",
@@ -152,12 +152,12 @@
   "languages": [
     {
       "language": "Indonesian",
-      "fluency": "Native speaker",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
