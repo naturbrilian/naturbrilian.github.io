@@ -69,38 +69,38 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Iklan Layanan Masyarakat: Pentingnya mencuci tangan",
+      "date": "2017-03-07",
+      "issuer": "SMK TI PELITA NUSANTARA KEDIRI",
+      "url": "https://www.youtube.com/watch?v=7ntQEHtHjOI",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Pesona Indah Air Terjun Irrenggolo",
+      "date": "2018-01-17",
+      "issuer": "Soft News Kediri Televisi",
+      "url": "https://www.youtube.com/watch?v=enRo1FPQDMI",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
+      "name": "Journey at Pasir Putih Beach",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "issuer": "Person",
+      "url": "https://www.youtube.com/watch?v=9rDDrz5WkLs",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "TV Commercial Zona Integritas RSUD Gambiran",
+      "date": "2023-07-18",
+      "issuer": "RSUD Gambiran",
+      "url": "https://youtu.be/cR1xaTwzVtE",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "RS Bhayangkara Kediri Gelar Mural Art Festival",
+      "date": "2024-09-15",
+      "issuer": "RS Bhayangkara Kediri",
+      "url": "https://www.youtube.com/watch?v=ehqTP2MyUVo",
       "icon": "fa-solid fa-calendar"
     },
     {
