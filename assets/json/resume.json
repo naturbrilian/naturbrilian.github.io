@@ -67,7 +67,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "video": [
+  "certificates": [
     {
       "name": "Iklan Layanan Masyarakat: Pentingnya mencuci tangan",
       "date": "2017-03-07",
@@ -111,7 +111,7 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
+  "public": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
@@ -175,7 +175,7 @@
       ]
     }
   ],
-  "references": [
+  "refer": [
     {
       "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
