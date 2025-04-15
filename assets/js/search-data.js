@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/people/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-peristiwa-tahun-ini-dan-overthinking-si-pemilik-website",
+      
+        title: "Peristiwa tahun ini dan overthinking si pemilik website",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/peristiwa-di-tahun-ini/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
