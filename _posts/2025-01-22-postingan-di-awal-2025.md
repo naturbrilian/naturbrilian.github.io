@@ -4,7 +4,7 @@ title: Postingan di awal 2025
 date: 2025-01-22 01:37:23
 tags: blog
 categories: blog
-thumbnail: assets/hanamizuki.jpeg
+thumbnail: assets/img/hanamizuki.jpeg
 ---
 
 Selamat sore, akhirnya ini adalah postingan pertamaku di situs utama, kemarin sempat mau pindah ke web sebelah namun saya urungkan saja niatnya. Baru tadi nemu templat blog yang bisa menjadikan satu dengan situs utama, resume dan sebagainya.
