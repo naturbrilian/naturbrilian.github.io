@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/peristiwa-di-tahun-ini/";
         
       },
+    },{id: "post-postingan-di-awal-2025",
+      
+        title: "Postingan di awal 2025",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/postingan-di-awal-2025/";
+        
+      },
     },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
