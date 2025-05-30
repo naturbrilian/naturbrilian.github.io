@@ -12,7 +12,12 @@ Selamat sore, akhirnya ini adalah postingan pertamaku di situs utama, kemarin se
 ## Templat lama dikemanakan?
 Jujur awalnya aku tertarik sama templat Median UI, alasannya sederhana, yaitu karena templat yang digunakan di situs milik Yurasub, tetapi karena sekarang lagi butuh kerjaan untuk lamaran dan sebagainya, saya memutuskan untuk merombak semua UI dari Median ke VCard. Sebenarnya mau ganti lagi sih hehehe
 
-![hanamizuki](/assets/img/Hanami.jpeg)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hanami.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Oh iya di tahun 2025 ini, juga tak lupa banyak tayangan anime-anime menarik seperti Hanashura, Kusuriya no Hitorigoto, dan satu lagi yang gak ada di daftar tontonku yaitu Bang Dream! Ave Mujica.
 
 Oh, ya aku sendiri sempat ada rencana mau pindah domain dari my id ke web id, tetapi kenapa tidak bisa digunakan pun penyebabnya belum diketahui, sempat kemarin kontak lewat "send ticket" karena katanya aku sendiri beli domain saja. Jadi ya mungkin gak bisa tak gunakan.
