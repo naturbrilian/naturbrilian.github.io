@@ -31,7 +31,7 @@ Here is my Wallpaper Design i create before, and you can download for free
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    My favourite character
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
@@ -60,6 +60,15 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid loading="eager" path="assets/img/romi.png" title="Arimura Romi V2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ayano_tateyama___vector_by_gingalibadeidara_djt1fpv.png" title="Ayano Tateyama" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This is my favourite work after tenshi hinanawi wallpaper design
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
