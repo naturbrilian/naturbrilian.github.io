@@ -434,12 +434,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/site/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -469,6 +464,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/site/projects/9_project/";
+            },},{id: "projects-request",
+          title: 'Request',
+          description: "Banner Commision i design before and some request from client",
+          section: "Projects",handler: () => {
+              window.location.href = "/site/projects/design_commision/";
             },},{id: "projects-poster-design",
           title: 'poster design',
           description: "Poster Design Gallery",
