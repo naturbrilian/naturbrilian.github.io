@@ -88,17 +88,17 @@ For the time being I only serve domestic customers (Indonesia). Payment is made 
 
 # Price (Vector logo coming soon)
 Character Vector:
-Full Body: IDR. 60.000
-Headshot: IDR. 50.000
+- Full Body: IDR. 60.000
+- Headshot: IDR. 50.000
 
 # Design
 ## For company
 ask me via dm discord or x naturbrilian
 
 ## For general
-started idr. 10.000 for header, and profile pictures
-started idr. 20.000 for etc
+- started idr. 10.000 for header, and profile pictures
+- started idr. 20.000 for etc
 Payment
-For payment accept DANA, Gopay and Bank (for temporary using Trakteer) . I also accepts via steam wallet.
+- For payment accept DANA, Gopay and Bank (for temporary using Trakteer) . I also accepts via steam wallet.
 
 The price could changes every time.
