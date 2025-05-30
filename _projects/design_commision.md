@@ -2,7 +2,7 @@
 layout: page
 title: Request
 description: Banner Commision i design before and some request from client
-img: assets/img/3.jpg
+img: assets/img/design-thimbnail.jpg
 importance: 2
 category: work
 giscus_comments: true
