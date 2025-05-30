@@ -459,11 +459,6 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/site/projects/6_project/";
-            },},{id: "projects-wallpaper-design",
-          title: 'Wallpaper Design',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/site/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
@@ -479,6 +474,11 @@ ninja.data = [{
           description: "Poster Design Gallery",
           section: "Projects",handler: () => {
               window.location.href = "/site/projects/poster_design/";
+            },},{id: "projects-wallpaper-design",
+          title: 'Wallpaper Design',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/site/projects/wallpaper_design/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
