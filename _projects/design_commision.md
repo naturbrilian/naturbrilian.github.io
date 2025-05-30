@@ -64,10 +64,7 @@ Banner Commision i design before and some request from client
         {% include figure.liquid loading="eager" path="assets/img/HF.png" title="Hana Fansubs Collab" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/473127230_1398272218249267_3104448906654863963_n.png" title="Hanashura" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/266742834_4551884444905347_6458937570890723412_n.jpg" title="TakTop" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blue-archive-with-wm.png" title="Hanashura" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -78,7 +75,7 @@ Banner Commision i design before and some request from client
         {% include figure.liquid path="assets/img/ambivalen-banner.png" title="Banner Ambivalen" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/blue-archive-with-wm.png" title="Blue Archive" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/assets/img/301780042_445088590988671_2996011606453484888_n.png" title="Ambivaken" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
