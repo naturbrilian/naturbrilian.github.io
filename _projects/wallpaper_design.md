@@ -39,30 +39,50 @@ Say you wanted to write a bit about your project before you posted the rest of t
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Amagi-hiiro.png" title="Amagi Hiiro" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Amagi-hiiro.png" title="Amagi Hiir" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Louis-James.png" title="Louis James Moriarty" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Louis-James.png" title="Louis James Moriarty" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/WP.jpg" title="Louis James Moriarty" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/viebex-d.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/arimura-mao.png" title="Arimura Mao" class="img-fluid rounded z-depth-1" %}
+</div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/arimura-mao.png" title="Arimura Mao" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/arimura-romi.jpg" title="Arimura Romi" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/arimura-romi.jpg" title="Arimura Romi" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/romi.png" title="Arimura Romi V2" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/romi.png" title="Arimura Romi V2" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
+</div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/chika-wp.png" title="Koamri Chika" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/chika-wp.png" title="Komari Chika" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/usada_pekora_wallpaper_desktop_design_by_gingalibadeidara_dfvodf0.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Izumo-Saki.png" title="Izumo Saki" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/viebex.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+    
+
+<div class="row">
+
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/usada_pekora_wallpaper_desktop_design_by_gingalibadeidara_dfvodf0.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
     </div>
