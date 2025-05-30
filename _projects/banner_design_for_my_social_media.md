@@ -44,7 +44,7 @@ This is my another project for personal
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Banner for my solo project Gingalibadeidara Works (deviantart) and Nanako Translation (Retiring)
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -74,10 +74,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/priconne-2.jpg" title="Priconne V2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/priconne-21.jpg" title="Priconne V1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/priconne-1.jpg" title="Priconne V1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Soon i update on here
 </div>
 
