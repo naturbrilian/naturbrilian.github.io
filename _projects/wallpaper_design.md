@@ -49,6 +49,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid loading="eager" path="assets/img/viebex-d.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/arimura-mao.png" title="Arimura Mao" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -59,6 +60,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid loading="eager" path="assets/img/romi.png" title="Arimura Romi V2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -69,6 +71,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid loading="eager" path="assets/img/usada_pekora_wallpaper_desktop_design_by_gingalibadeidara_dfvodf0.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
     </div>
