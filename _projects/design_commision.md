@@ -75,11 +75,8 @@ Banner Commision i design before and some request from client
         {% include figure.liquid path="assets/img/ambivalen-banner.png" title="Banner Ambivalen" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/assets/img/301780042_445088590988671_2996011606453484888_n.png" title="Ambivaken" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/301780042_445088590988671_2996011606453484888_n.png" title="Ambivaken" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 For more sample you can check my portofolio with categories Design and Vector
@@ -101,4 +98,4 @@ ask me via dm discord or x naturbrilian
 Payment
 - For payment accept DANA, Gopay and Bank (for temporary using Trakteer) . I also accepts via steam wallet.
 
-The price could changes every time.
+_The price could changes every time._
