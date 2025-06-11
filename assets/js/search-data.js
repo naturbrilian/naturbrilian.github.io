@@ -88,6 +88,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/postingan-di-awal-2025/";
         
       },
+    },{id: "post-postingan-terakhir-di-tahun-ini",
+      
+        title: "Postingan terakhir di tahun ini",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2024/postingan-akhir/";
+        
+      },
     },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
