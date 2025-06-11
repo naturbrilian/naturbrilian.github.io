@@ -99,6 +99,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2024/postingan-akhir/";
         
       },
+    },{id: "post-postingan-di-awal-2025",
+      
+        title: "Postingan di awal 2025",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2024/memutuskan-untuk-pensi-dari-gim-favorit/";
+        
+      },
     },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
