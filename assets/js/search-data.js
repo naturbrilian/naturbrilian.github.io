@@ -187,6 +187,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2024/pseudocode/";
         
       },
+    },{id: "post-postingan-di-awal-2025",
+      
+        title: "Postingan di awal 2025",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2024/pensi-atau-lanjut/";
+        
+      },
     },{id: "post-ada-rencana-mau-stay-di-blogspot-atau-pindah-ke-digitalpress",
       
         title: "Ada rencana mau stay di Blogspot atau pindah ke DigitalPress?",
