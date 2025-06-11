@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/people/";
           },
-        },{id: "post-peristiwa-tahun-ini-dan-overthinking-si-pemilik-website",
+        },{id: "post-migrasi-lagi-tidak-tahu",
+      
+        title: "Migrasi lagi? tidak tahu",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/migrasi-tidak-tahu/";
+        
+      },
+    },{id: "post-peristiwa-tahun-ini-dan-overthinking-si-pemilik-website",
       
         title: "Peristiwa tahun ini dan overthinking si pemilik website",
       
