@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Postingan di awal 2025
+title: Herannya mengapa orang-orang masih mempermasalahkan tentang vector art
 date: 2023-10-10 24:00:23
 tags: vector
 categories: vector project
