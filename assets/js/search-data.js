@@ -308,6 +308,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/bingung-mau-pasang-domain-di-web-proyek/";
         
       },
+    },{id: "post-review-jellyfin-mediaplayer-atau-server",
+      
+        title: "Review Jellyfin MediaPlayer atau Server",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/jellyfin-review/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
