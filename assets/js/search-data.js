@@ -297,6 +297,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/punya-blog-nganggur-fungsikan-aja-sebagai-blog-sharing-lagu/";
         
       },
+    },{id: "post-bingung-mau-pasang-domain-di-web-proyek-terjemahan-namun-terkendala-biaya-fansubid-memberikan-sub-domain-gratis-buat-kamu",
+      
+        title: "Bingung mau pasang domain di web proyek terjemahan, namun terkendala biaya? FansubID memberikan...",
+      
+      description: "Tutorial klaim sub-domain fansub id",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/bingung-mau-pasang-domain-di-web-proyek/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
