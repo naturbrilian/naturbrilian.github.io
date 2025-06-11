@@ -286,6 +286,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/tikzjax/";
         
       },
+    },{id: "post-punya-blog-nganggur-fungsikan-aja-sebagai-blog-sharing-lagu",
+      
+        title: "Punya blog nganggur? fungsikan aja sebagai blog sharing lagu",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/punya-blog-nganggur-fungsikan-aja-sebagai-blog-sharing-lagu/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
