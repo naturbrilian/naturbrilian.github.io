@@ -66,6 +66,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/peristiwa-di-tahun-ini/";
         
       },
+    },{id: "post-masalah-heatsink-laptop-amp-fitur-hyper-v",
+      
+        title: "Masalah heatsink laptop &amp; Fitur Hyper-V",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/masalah-heatsink-laptop-fitur-hyper-v/";
+        
+      },
     },{id: "post-postingan-di-awal-2025",
       
         title: "Postingan di awal 2025",
