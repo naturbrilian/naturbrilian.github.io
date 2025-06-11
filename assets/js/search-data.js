@@ -132,6 +132,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2024/pseudocode/";
         
       },
+    },{id: "post-ada-rencana-mau-stay-di-blogspot-atau-pindah-ke-digitalpress",
+      
+        title: "Ada rencana mau stay di Blogspot atau pindah ke DigitalPress?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2024/ada-rencana-mau-stay-di-blogspot-atau/";
+        
+      },
     },{id: "post-a-post-with-code-diff",
       
         title: "a post with code diff",
