@@ -341,6 +341,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/herannya-mengapa-orang-orang-masih-mempermasalahkan-tentang-vector-art/";
         
       },
+    },{id: "post-alasan-aku-tidak-menggunakan-hatena-lagi-sebagai-cabang-blog-bahasa-inggris",
+      
+        title: "Alasan aku tidak menggunakan Hatena lagi sebagai cabang blog Bahasa Inggris",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/alasan-aku-tidak-menggunakan-hatena/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
