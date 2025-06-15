@@ -473,9 +473,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/diagrams/";
         
       },
-    },{id: "post-a-distill-style-blog-post",
+    },{id: "post-tutorial-tema-google-chrome",
       
-        title: "a distill-style blog post",
+        title: "Tutorial Tema Google Chrome",
       
       description: "an example of a distill-style blog post and main elements",
       section: "Posts",
