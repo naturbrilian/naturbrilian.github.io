@@ -2,7 +2,7 @@
 layout: distill
 title: Tutorial Tema Google Chrome
 description: dasar-dasar kustomisasi tema perambanmu sendiri
-tags: distill formatting
+tags: tutorial themes customization
 giscus_comments: true
 date: 2024-11-12
 featured: true
