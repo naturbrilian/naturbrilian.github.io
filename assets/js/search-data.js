@@ -319,6 +319,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/jellyfin-review/";
         
       },
+    },{id: "post-herannya-mengapa-orang-orang-masih-mempermasalahkan-tentang-vector-art",
+      
+        title: "Herannya mengapa orang-orang masih mempermasalahkan tentang vector art",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/herannya-mengapa-orang-orang-masih-mempermasalahkan-tentang-vector-art/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
