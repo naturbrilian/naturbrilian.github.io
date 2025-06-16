@@ -583,6 +583,17 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
+    },{id: "post-anniversary-of-gingalibadeidara-works-8-years-from-blogging-until-translations-project-english",
+      
+        title: "Anniversary of gingalibadeidara works 8 years (from Blogging until Translations Project) (English)",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2022/anniversary-of-gingalibadeidara-works-8-years-from-blogging-until-translations-projec/";
+        
+      },
     },{id: "post-a-post-with-redirect",
       
         title: "a post with redirect",
