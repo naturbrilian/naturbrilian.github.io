@@ -9,12 +9,12 @@ last_name: Brilian
 contact_note: >
   You can reach me out via.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Natur Brilian Main Site | Write Anything & Update Another Project.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Situs ini dibuat oleh <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> dengan tema <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Dihosting di <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Foto dari Pribadi, <a href="https://google.com/" target=_blank">Google</a>, <a href="https://pixiv.net" target=_blank">Pixiv</a>, dan <a href="https://alphacoders.com/" target=_blank">Alphacoders</a>. 
+keywords: blog, portfolio-website, resume, blog-project # add your own keywords or leave empty
 lang: en, id, jp # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
