@@ -4,8 +4,8 @@ title: Mahjong Soul Desktop Client (Bahasa Indonesia)
 description: tutorial singkat cara bermain Mahjong Soul Desktop menggunakan klien tidak resmi (sudah tidak berlaku)
 tags: tutorial
 giscus_comments: true
-date: 2025-05-01
-featured: true
+date: 2022-05-01
+featured: false
 mermaid:
   enabled: true
   zoomable: true
