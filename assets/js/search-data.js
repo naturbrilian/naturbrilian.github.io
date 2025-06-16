@@ -77,9 +77,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/peristiwa-di-tahun-ini/";
         
       },
-    },{id: "post-планы-на-2025-блог-проекта-aimp",
+    },{id: "post-roadmap-2025-aimp-s-blog",
       
-        title: 'Планы на 2025 | Блог проекта AIMP <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Roadmap 2025 | AIMP’s Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "",
       section: "Posts",
@@ -108,6 +108,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2025/postingan-di-awal-2025/";
+        
+      },
+    },{id: "post-keabadian-atau-masa-depan-yang-kauharapkan-guci-39-s-mind",
+      
+        title: 'Keabadian (atau, Masa Depan) yang Kauharapkan | Guci&#39;s Mind <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Entah gimana, dari aku yang awalnya tertarik sama Owarinaki Natsu Towa Naru Shirabe, malah beralih ke nonton sedikit Muv-Luv Alternative (yang jelek banget), lalu malah berakhir nonton Kimi ga Nozomu Eien. Waktu bocah esema aku pernah membaca sinopsisnya yang mana “Protagonis pacaran sama Heroine 1 suatu hari Heroine 1 kecelakaan terus koma terus Protagonis pacaran…",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://nectarinia99.wordpress.com/2025/01/18/keabadian-atau-masa-depan-yang-kauharapkan/", "_blank");
         
       },
     },{id: "post-postingan-terakhir-di-tahun-ini",
@@ -295,6 +306,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2024/chartjs/";
+        
+      },
+    },{id: "post-suka-suka-bahasa-indonesia-guci-39-s-mind",
+      
+        title: 'Suka-suka Bahasa Indonesia | Guci&#39;s Mind <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Ini bahasan yang agak jarang di perbindoan, tapi sering diucapkan orang-orang sampai mungkin ga sadar, yaitu penggunaan kata &quot;suka&quot;. Jadi aku tulis ini biar kita sama-sama &quot;oh iya juga ya&quot; bareng.Bahasa Indonesia, dengan segala keterbatasan jumlah katanya, memiliki salah satu keunikan dalam hal Pembicara - Pendengar yang saling memahami. Umumnya, &quot;suka&quot; memiliki makna KESENANGAN Subjek…",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://nectarinia99.wordpress.com/2024/01/16/suka-suka-bahasa-indonesia/", "_blank");
         
       },
     },{id: "post-a-post-with-tikzjax",
@@ -572,17 +594,6 @@ ninja.data = [{
           window.location.href = "/site/blog/2022/mahjong-soul-on-desktop/";
         
       },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-      
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-        
-      },
     },{id: "post-anniversary-of-gingalibadeidara-works-8-years-from-blogging-until-translations-project-english",
       
         title: "Anniversary of gingalibadeidara works 8 years (from Blogging until Translations Project) (English)",
@@ -693,6 +704,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/distill/";
         
       },
+    },{id: "post-novel-the-failure-alchemist-of-the-royal-capital-my-job-is-a-failure-so-i-ll-manage-my-store-carefreely-bahasa-indonesia-rena-translations",
+      
+        title: '[Novel] The Failure Alchemist of the Royal Capital ~My job is a failure... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://renatl.blogspot.com/2021/04/novel-failure-alchemist-of-royal.html", "_blank");
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
@@ -702,6 +724,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2020/twitter/";
+        
+      },
+    },{id: "post-my-absurd-imaginations-the-big-five-team-of-miniature-program",
+      
+        title: '~MY ABSURD IMAGINATIONS~: THE BIG FIVE TEAM OF MINIATURE PROGRAM <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "HALOOOOO! APA KABAR KALIAN?! KALIAN PASTI MERINDUKANKU~ //TAMPAR",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://yummyulia.blogspot.com/2019/03/the-big-five-team-of-miniature-program.html", "_blank");
         
       },
     },{id: "post-a-post-with-disqus-comments",
