@@ -198,9 +198,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2024/pseudocode/";
         
       },
-    },{id: "post-postingan-di-awal-2025",
+    },{id: "post-pensi-atau-lanjut",
       
-        title: "Postingan di awal 2025",
+        title: "Pensi atau Lanjut?",
       
       description: "",
       section: "Posts",
