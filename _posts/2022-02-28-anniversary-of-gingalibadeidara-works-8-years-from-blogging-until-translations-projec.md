@@ -19,7 +19,7 @@ Hello, I’m finally back here. As the title says, I want to tell you how this p
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/220220228111139.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/20220228111139.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
