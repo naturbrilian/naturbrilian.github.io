@@ -363,6 +363,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/ashould-this-blog-be-closed/";
         
       },
+    },{id: "post-proyek-unit-terjemahan-nanako-tidak-dilanjut-mengapa",
+      
+        title: "Proyek unit terjemahan Nanako tidak dilanjut, mengapa?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/proyek-unit-terjemahan-nanako/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
