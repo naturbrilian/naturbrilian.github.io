@@ -55,17 +55,6 @@ ninja.data = [{
           window.open("https://ufal.my.id/2025/06/11/taiga/", "_blank");
         
       },
-    },{id: "post-mahjong-soul-desktop-client-bahasa-indonesia",
-      
-        title: "Mahjong Soul Desktop Client (Bahasa Indonesia)",
-      
-      description: "tutorial singkat cara bermain Mahjong Soul Desktop menggunakan klien tidak resmi (sudah tidak berlaku)",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/site/blog/2025/mahjong-soul-desktop-client/";
-        
-      },
     },{id: "post-migrasi-lagi-tidak-tahu",
       
         title: "Migrasi lagi? tidak tahu",
@@ -559,6 +548,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2022/memulai-dari-awal/";
+        
+      },
+    },{id: "post-mahjong-soul-desktop-client-bahasa-indonesia",
+      
+        title: "Mahjong Soul Desktop Client (Bahasa Indonesia)",
+      
+      description: "tutorial singkat cara bermain Mahjong Soul Desktop menggunakan klien tidak resmi (sudah tidak berlaku)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2022/mahjong-soul-desktop-client/";
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
