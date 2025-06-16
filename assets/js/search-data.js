@@ -484,6 +484,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/google-chrome-themes-shiroko-blue/";
         
       },
+    },{id: "post-apakah-tema-windows-10-masih-bisa-digunakan-saat-kamu-mengunakan-windows-11",
+      
+        title: "Apakah Tema Windows 10 masih bisa digunakan saat kamu mengunakan Windows 11?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/apakah-tema-windows-10-masih-bisa/";
+        
+      },
     },{id: "post-a-post-with-giscus-comments",
       
         title: "a post with giscus comments",
