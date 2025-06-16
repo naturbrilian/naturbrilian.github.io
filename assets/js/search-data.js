@@ -473,6 +473,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/table-of-contents/";
         
       },
+    },{id: "post-google-chrome-themes-shiroko-blue-archive",
+      
+        title: "Google Chrome Themes Shiroko Blue Archive",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/google-chrome-themes-shiroko-blue/";
+        
+      },
     },{id: "post-a-post-with-giscus-comments",
       
         title: "a post with giscus comments",
