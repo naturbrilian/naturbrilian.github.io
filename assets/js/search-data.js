@@ -539,6 +539,17 @@ ninja.data = [{
           window.location.href = "/site/assets/pdf/example_pdf.pdf";
         
       },
+    },{id: "post-light-novel-moriarty-the-patriot-volume-1-3-bahasa-indonesia",
+      
+        title: 'Light Novel Moriarty The Patriot Volume 1-3 Bahasa Indonesia <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "JUST TO ANSWER YOUR CURIOSITY, ESPECIALLY ABOUT ANIME :)",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.shirayuki-chan.my.id/2021/08/light-novel-moriarty-patriot-volume-1-3.html", "_blank");
+        
+      },
     },{id: "post-a-post-with-diagrams",
       
         title: "a post with diagrams",
