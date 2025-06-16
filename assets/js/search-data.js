@@ -352,6 +352,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/alasan-aku-tidak-menggunakan-hatena/";
         
       },
+    },{id: "post-should-this-blog-be-closed",
+      
+        title: "Should this blog be closed?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/ashould-this-blog-be-closed/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
@@ -372,17 +383,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2023/jupyter-notebook/";
-        
-      },
-    },{id: "post-should-this-blog-be-closed",
-      
-        title: "Should this blog be closed?",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/site/blog/2023/ashould-this-blog-be-closed/";
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
