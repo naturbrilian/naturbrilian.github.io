@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Should this blog be closed?
-date: 2023-009-06 18:49:23
+date: 2023-09-06 18:49:23
 tags: blogging
 categories: blog
 thumbnail: assets/img/bloge-en.eSyF_bK2_Z24f8GH.webp
