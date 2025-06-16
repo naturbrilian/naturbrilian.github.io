@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/projects/";
           },
+        },{id: "nav-website-my-friends",
+          title: "website my friends",
+          description: "These are some links that I often visit, localization project sites &amp; some application sites that I have previously translated into Indonesian and my friends&#39; sites from several translation teams and others.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/site/friends/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/site/cv/";
-          },
-        },{id: "nav-website-my-friends",
-          title: "Website my friends",
-          description: "my friends links",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/site/friends/";
           },
         },{id: "nav-me",
           title: "me",
