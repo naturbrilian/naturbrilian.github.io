@@ -616,6 +616,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2022/test/";
         
       },
+    },{id: "post-tahun-baru-2022",
+      
+        title: "Tahun Baru 2022",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2022/tahun-baru-2022/";
+        
+      },
     },{id: "post-a-post-with-redirect",
       
         title: "a post with redirect",
