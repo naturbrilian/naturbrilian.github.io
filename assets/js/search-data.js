@@ -495,6 +495,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/apakah-tema-windows-10-masih-bisa/";
         
       },
+    },{id: "post-how-can-the-windows-10-theme-still-work-on-the-windows-11-os",
+      
+        title: "How can the Windows 10 theme still work on the Windows 11 os?...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/how-can-windows-10-theme-still-work-on/";
+        
+      },
     },{id: "post-a-post-with-giscus-comments",
       
         title: "a post with giscus comments",
