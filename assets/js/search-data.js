@@ -374,6 +374,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/proyek-unit-terjemahan-nanako/";
         
       },
+    },{id: "post-proyek-situs-web-hananako-dimulai",
+      
+        title: "Proyek Situs Web Hananako dimulai",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/proyek-situs-web-hananako-dimulai/";
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
