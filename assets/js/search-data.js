@@ -62,6 +62,17 @@ ninja.data = [{
           window.open("https://ufal.my.id/2025/06/11/taiga/", "_blank");
         
       },
+    },{id: "post-tentang-inkscape",
+      
+        title: "Tentang Inkscape",
+      
+      description: "Tentang dari Software atau Aplikasi ini",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/apa-itu-inkscape/";
+        
+      },
     },{id: "post-migrasi-lagi-tidak-tahu",
       
         title: "Migrasi lagi? tidak tahu",
