@@ -62,6 +62,17 @@ ninja.data = [{
           window.open("https://ufal.my.id/2025/06/11/taiga/", "_blank");
         
       },
+    },{id: "post-antarmuka",
+      
+        title: "Antarmuka",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/antarmuka/";
+        
+      },
     },{id: "post-tentang-inkscape",
       
         title: "Tentang Inkscape",
