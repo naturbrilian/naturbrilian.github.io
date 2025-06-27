@@ -14,8 +14,11 @@ thumbnail: assets/img/512274831_697499616383376_570875852809618813_n.jpg
     </div>
 </div>
 
-> [!NOTE]
-> Sebenarnya ini artikel adalah salinan dari postingan yang aku buat di fb kemarin
+> ##### TIP
+> 
+> Sebenarnya ini artikel adalah salinan
+> dari postingan yang aku buat di fb kemarin
+{: .block-tip }
 
 Aku kan kemarin sempat tiba-tiba buat postingan di Facebook, karena sebuah postingan di salah satu grup yang tiba-tiba flashdisknya saat dicolokin ke laptopnya ternyata kena hidden, lalu warga grup tersebut berkomentar "disinilah peran Smadav diperlukan".
 
@@ -23,9 +26,12 @@ Nah, sedangkan Smadav sendiri itu ternyata menggunakan metode yang sama aku guna
 
 ## Cara mengatasinya
 Nah, buat yang masih mengandalkan smadav, sebenarnya bisa menggunakan perintah ini di *Command Prompt*, cukup ketikkan "attrib -s -r -h *.* /s /d /l" lalu tekan enter, jangan lupa untuk mengganti direktori tujuan ke flashdiskmu.
-
-> [!NOTE]
-> Perintah ini hanya berlaku untuk flashdisk, tidak berlaku untuk harddisk eksternal
+ 
+> ##### TIP
+>
+> Perintah ini hanya berlaku untuk flashdisk,
+> tidak berlaku untuk harddisk eksternal
+{: .block-tip }
 
 Sebenarnya cara ini sudah lama digunakan, apalagi kamu yang sering ke tukang percetakan dan warnet apalagi. Soal Smadav sendiri ternyata mereka sudah mengimplementasikan ini, tapi hanya saja dalam bentuk GUI (Graphical User Interface) atau kita biasa menyebutnya dengan Antarmuka Pengguna Grafis agar pengguna yang masih awam mudah menggunakannya.
 
