@@ -117,9 +117,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/peristiwa-di-tahun-ini/";
         
       },
-    },{id: "post-планы-на-2025-блог-проекта-aimp",
+    },{id: "post-roadmap-2025-aimp-s-blog",
       
-        title: 'Планы на 2025 | Блог проекта AIMP <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Roadmap 2025 | AIMP’s Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "",
       section: "Posts",
