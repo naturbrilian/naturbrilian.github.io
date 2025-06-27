@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengatasi masalah file di flashdisk yang ke hidden karena virus
-date: 2025-06-27 13:08:23
+date: 2025-06-26 13:08:23
 description: Tutorial yang mungkin hampir semua orang lupa
 tags: blog
 categories: tutorial
