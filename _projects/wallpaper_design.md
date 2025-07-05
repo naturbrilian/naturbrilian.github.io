@@ -82,15 +82,19 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/tenko-wallpaper.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dgu39jx-b13199df-c01e-4c0f-bc81-9f795601b9af.png" title="Tenshi Hinanawi" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Izumo-Saki.png" title="Izumo Saki" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/viebex.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/melvi-desktop.png" title="Melviora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/viebex.png" title="Usada Pekora" class="img-fluid rounded z-depth-1" %}
+    </div>
     
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
