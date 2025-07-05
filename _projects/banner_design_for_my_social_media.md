@@ -56,6 +56,8 @@ This is my another project for personal
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/shhhh.png" title="Ginworks Project" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/nanako-tl-1.jpg" title="Nanako Translation V1" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -65,6 +67,7 @@ This is my another project for personal
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/banner-naturbrilian-sosmed-ver.png" title="Natur Brilian Socmed" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
     
 </div>
 <div class="caption">
