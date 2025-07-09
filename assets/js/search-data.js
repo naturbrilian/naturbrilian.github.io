@@ -502,6 +502,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2023/74365/";
         
       },
+    },{id: "post-my-tweets",
+      
+        title: "My tweets",
+      
+      description: "auto post my tweets | copy post from my livejournal",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2023/74197/";
+        
+      },
     },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
       
         title: "a post with table of contents on a sidebar",
