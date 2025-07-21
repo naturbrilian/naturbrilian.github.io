@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/friends/";
           },
+        },{id: "nav-now",
+          title: "now",
+          description: "Page for activity for now",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/site/now/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -62,11 +69,11 @@ ninja.data = [{
           window.location.href = "/site/blog/2025/mengatasi-file-di-flashdisk-yang-kehidden/";
         
       },
-    },{id: "post-lacak-tontonan-anime-mu-di-windows-dengan-taiga-ufal-salman",
+    },{id: "post-just-a-moment",
       
-        title: 'Lacak Tontonan Anime-mu di Windows dengan Taiga | Ufal Salman <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "Dengan Taiga, kamu bisa mengatur anime yang kamu tonton, mengunduh episode baru, dan berbagi ke Discord juga dalam satu aplikasi",
+      description: "",
       section: "Posts",
       handler: () => {
         
