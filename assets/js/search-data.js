@@ -762,6 +762,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/diagrams/";
         
       },
+    },{id: "post-wallpaper-amp-tutorial-cara-buat-minimalist",
+      
+        title: "Wallpaper &amp; Tutorial cara buat minimalist",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2021/wallpaper-tutorial-cara-buat-minimalist/";
+        
+      },
     },{id: "post-tips-amp-trik-cara-mengunci-akun-facebook-tidak-bekerja-untuk-saat-ini",
       
         title: "Tips &amp; Trik cara mengunci akun Facebook (Tidak bekerja untuk saat ini)",
