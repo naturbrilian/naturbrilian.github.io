@@ -894,6 +894,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/first-post-on-decembers/";
         
       },
+    },{id: "post-tulisan-pertama-di-tahun-2020",
+      
+        title: "Tulisan pertama di tahun 2020",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/tulisan-pertama-di-tahun-2020/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
