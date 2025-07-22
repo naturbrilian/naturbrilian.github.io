@@ -25,7 +25,10 @@ Aku kan kemarin sempat tiba-tiba buat postingan di Facebook, karena sebuah posti
 Nah, sedangkan Smadav sendiri itu ternyata menggunakan metode yang sama aku gunakan 5 tahun yang lalu, tepatnya setelah aku menancapkan flashdisk ku pc milik kantor tempat aku bekerja. Waktu itu karena mau mengunggah berkas video ke YouTube yang terpaksa pakai laptopku gara-gara PC kantor tidak terpasang driver wifi/jaringannya.
 
 ## Cara mengatasinya
-Nah, buat yang masih mengandalkan smadav, sebenarnya bisa menggunakan perintah ini di *Command Prompt*, cukup ketikkan "attrib -s -r -h *.* /s /d /l" lalu tekan enter, jangan lupa untuk mengganti direktori tujuan ke flashdiskmu.
+Nah, buat yang masih mengandalkan smadav, sebenarnya bisa menggunakan perintah ini di Command Prompt, cukup ketikkan command dibawah lalu tekan enter, jangan lupa untuk mengganti direktori tujuan ke flashdiskmu.
+```script
+"attrib -s -r -h *.* /s /d /l"
+```
  
 > ##### TIP
 >
