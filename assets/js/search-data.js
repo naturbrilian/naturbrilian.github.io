@@ -872,6 +872,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/apa-saja-yang-terjadi-selama-1-tahun-ini/";
         
       },
+    },{id: "post-migrating-to-a-new-blog-soon",
+      
+        title: "Migrating to a new blog, soon!",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/migrating-to-a-new-blog-soon/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
