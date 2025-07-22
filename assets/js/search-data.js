@@ -916,6 +916,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/entry-12631604255/";
         
       },
+    },{id: "post-曲-アルバム推薦-木漏れ日のエデン",
+      
+        title: "【曲・アルバム推薦】木漏れ日のエデン",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/entry-12631494656/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
