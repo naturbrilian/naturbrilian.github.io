@@ -839,6 +839,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/pengumuman-sebuah-proyek-baru/";
         
       },
+    },{id: "post-apa-harapanmu-untuk-tahun-2021",
+      
+        title: "Apa harapanmu untuk tahun 2021?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/apa-harapanmu-untuk-tahun-2021/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
