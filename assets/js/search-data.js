@@ -828,6 +828,17 @@ ninja.data = [{
           window.open("https://renatl.blogspot.com/2021/04/novel-failure-alchemist-of-royal.html", "_blank");
         
       },
+    },{id: "post-pengumuman-sebuah-proyek-baru",
+      
+        title: "Pengumuman Sebuah Proyek Baru",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2021/pengumuman-sebuah-proyek-baru/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
