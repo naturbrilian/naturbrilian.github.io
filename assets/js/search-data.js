@@ -916,6 +916,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/entry-12631604255/";
         
       },
+    },{id: "post-proyek-lama-tiba-tiba-di-angkat-kembali",
+      
+        title: "Proyek lama tiba-tiba di angkat kembali",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/proyek-lama-tiba-tiba-di-angkat-kembali/";
+        
+      },
     },{id: "post-曲-アルバム推薦-木漏れ日のエデン",
       
         title: "【曲・アルバム推薦】木漏れ日のエデン",
