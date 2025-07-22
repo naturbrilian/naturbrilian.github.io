@@ -883,6 +883,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/migrating-to-a-new-blog-soon/";
         
       },
+    },{id: "post-first-post-on-december-39-s",
+      
+        title: "First Post on December&#39;s",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/first-post-on-decembers/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
