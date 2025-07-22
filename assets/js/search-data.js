@@ -795,6 +795,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/distill/";
         
       },
+    },{id: "post-it-39-s-been-a-long-time-since-updating-this-blog",
+      
+        title: "It&#39;s been a long time since updating this blog",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2021/its-been-a-long-time-since-updating-this-blog/";
+        
+      },
     },{id: "post-novel-the-failure-alchemist-of-the-royal-capital-my-job-is-a-failure-so-i-ll-manage-my-store-carefreely-bahasa-indonesia-rena-translations",
       
         title: '[Novel] The Failure Alchemist of the Royal Capital ~My job is a failure... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
