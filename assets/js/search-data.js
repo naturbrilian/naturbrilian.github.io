@@ -927,6 +927,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/proyek-lama-tiba-tiba-di-angkat-kembali/";
         
       },
+    },{id: "post-the-old-project-was-suddenly-raised-again",
+      
+        title: "The old project was suddenly raised again",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/the-old-project-was-suddenly-raised-again/";
+        
+      },
     },{id: "post-曲-アルバム推薦-木漏れ日のエデン",
       
         title: "【曲・アルバム推薦】木漏れ日のエデン",
