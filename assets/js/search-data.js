@@ -960,17 +960,6 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/entry-12631592717/";
         
       },
-    },{id: "post-a-post-with-twitter",
-      
-        title: "a post with twitter",
-      
-      description: "an example of a blog post with twitter",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/site/blog/2020/twitter/";
-        
-      },
     },{id: "post-membuat-tema-girls-39-frontline-tetapi-untuk-browser-chrome",
       
         title: "Membuat tema Girls&#39; Frontline tetapi untuk browser Chrome",
