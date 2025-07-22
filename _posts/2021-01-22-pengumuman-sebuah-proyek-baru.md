@@ -2,8 +2,8 @@
 layout: post
 title: Pengumuman Sebuah Proyek Baru
 date: 2021-01-22 23:19:00
-tags: project, terjemahan
-categories: blog
+tags: terjemahan
+categories: project
 thumbnail: assets/img/ambivalen-project.png
 ---
 
