@@ -850,6 +850,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/apa-harapanmu-untuk-tahun-2021/";
         
       },
+    },{id: "post-what-are-your-hopes-for-2021",
+      
+        title: "What are your hopes for 2021?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/what-are-your-hopes-for-2021/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
