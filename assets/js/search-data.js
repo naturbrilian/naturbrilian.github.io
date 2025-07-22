@@ -861,6 +861,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/what-are-your-hopes-for-2021/";
         
       },
+    },{id: "post-apa-saja-yang-terjadi-selama-1-tahun-ini",
+      
+        title: "Apa saja yang terjadi selama 1 tahun ini",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/apa-saja-yang-terjadi-selama-1-tahun-ini/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
