@@ -21,7 +21,7 @@ Ngomong ngomong saat saya mencari gambar untuk bahannya saya sangat kesulitan, k
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/preview-eydis-1.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/preview-alice.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
