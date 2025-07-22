@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/people/";
           },
-        },{id: "post-mengatasi-masalah-file-di-flashdisk-yang-ke-hidden-karena-virus",
+        },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
+      
+        title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/project-gingalibadeidara-works-dihentikan/";
+        
+      },
+    },{id: "post-mengatasi-masalah-file-di-flashdisk-yang-ke-hidden-karena-virus",
       
         title: "Mengatasi masalah file di flashdisk yang ke hidden karena virus",
       
