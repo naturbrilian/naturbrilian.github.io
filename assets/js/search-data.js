@@ -949,6 +949,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/entry-12631494656/";
         
       },
+    },{id: "post-entry-12631592717",
+      
+        title: "Entry 12631592717",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2020/entry-12631592717/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
