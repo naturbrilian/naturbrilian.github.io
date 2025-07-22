@@ -949,9 +949,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/entry-12631494656/";
         
       },
-    },{id: "post-entry-12631592717",
+    },{id: "post-近い将来-私はウェブページを持っているでしょう",
       
-        title: "Entry 12631592717",
+        title: "近い将来、私はウェブページを持っているでしょう",
       
       description: "",
       section: "Posts",
