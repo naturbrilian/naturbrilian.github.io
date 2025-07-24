@@ -993,6 +993,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2020/sempat-kepikiran-kalau-ingin/";
         
       },
+    },{id: "post-2019年に私の最初の投稿",
+      
+        title: "2019年に私の最初の投稿",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2019/entry-12495863267/";
+        
+      },
     },{id: "post-my-absurd-imaginations-the-big-five-team-of-miniature-program",
       
         title: '~MY ABSURD IMAGINATIONS~: THE BIG FIVE TEAM OF MINIATURE PROGRAM <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
