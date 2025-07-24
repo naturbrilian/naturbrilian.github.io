@@ -1015,6 +1015,17 @@ ninja.data = [{
           window.open("https://yummyulia.blogspot.com/2019/03/the-big-five-team-of-miniature-program.html", "_blank");
         
       },
+    },{id: "post-go-for-dreamの最後のプロジェクト",
+      
+        title: "Go For Dreamの最後のプロジェクト",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2019/entry-12631526888/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
