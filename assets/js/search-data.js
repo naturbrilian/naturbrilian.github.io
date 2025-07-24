@@ -1103,6 +1103,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2015/entry-12067374111/";
         
       },
+    },{id: "post-教師と生徒の間の分離",
+      
+        title: "教師と生徒の間の分離",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2015/entry-12059373042/";
+        
+      },
     },{id: "post-自分の",
       
         title: "自分の",
