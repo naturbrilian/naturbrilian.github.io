@@ -63,14 +63,9 @@ Banner Commision i design before and some request from client
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/BPPKAD.png" title="Hana Fansubs Collab" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-        BPPKAD
-    </div>
+</div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/kickboxing-banyuwangi.jpg" title="Hanashura" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="caption">
-        Kickboxing Banyuwangi
     </div>
 </div>
 
