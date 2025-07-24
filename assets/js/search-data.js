@@ -784,9 +784,9 @@ ninja.data = [{
           window.location.href = "/site/blog/2021/tips-trik-cara-mengunci-akun-facebook/";
         
       },
-    },{id: "post-tutorial-tema-google-chrome",
+    },{id: "post-a-distill-style-blog-post",
       
-        title: "Tutorial Tema Google Chrome",
+        title: "a distill-style blog post",
       
       description: "an example of a distill-style blog post and main elements",
       section: "Posts",
