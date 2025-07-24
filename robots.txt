@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://naturbrilian.github.io/site/sitemap.xml
+Sitemap: https://naturbrilian.github.io/sitemap.xml
