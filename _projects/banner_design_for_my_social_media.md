@@ -43,10 +43,13 @@ This is my another project for personal
         {% include figure.liquid loading="eager" path="assets/img/musim-panas.jpeg" title="Musim Panas" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
     Banner for my solo project Gingalibadeidara Works (deviantart) and Nanako Translation (Retiring)
 </div>
-<div class="col-sm mt-3 mt-md-0">
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ginworks-2.png" title="Mizuhashi Yusariko" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
