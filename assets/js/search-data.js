@@ -1147,6 +1147,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2015/images/";
         
       },
+    },{id: "post-その後-私たちのクラスでは-教師の実践によって教えられて記憶に残る写真-だった-これは私たちの",
+      
+        title: "その後、私たちのクラスでは、教師の実践によって教えられて記憶に残る写真、だった、これは私たちの…",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2015/entry-12004140959/";
+        
+      },
     },{id: "post-a-post-with-formatting-and-links",
       
         title: "a post with formatting and links",
