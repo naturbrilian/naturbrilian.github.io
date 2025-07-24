@@ -57,6 +57,23 @@ Banner Commision i design before and some request from client
     Joira joki fgo
 </div>
 
+# Commercial Design
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BPPKAD.png" title="Hana Fansubs Collab" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        BPPKAD
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/kickboxing-banyuwangi.jpg" title="Hanashura" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        Kickboxing Banyuwangi
+    </div>
+</div>
+
 # Fansubs Promotion Post
 
 <div class="row">
