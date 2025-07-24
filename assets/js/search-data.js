@@ -58,18 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/people/";
           },
-        },{id: "post-",
-      
-        title: "",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/site/blog/2025/2018-12-16-entry-12631531599/";
-        
-      },
-    },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
+        },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
       
@@ -1057,6 +1046,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/site/blog/2018/entry-12631529988/";
+        
+      },
+    },{id: "post-戻ってきました",
+      
+        title: "戻ってきました",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2018/entry-12631531599/";
         
       },
     },{id: "post-a-post-with-disqus-comments",
