@@ -1220,6 +1220,11 @@ ninja.data = [{
           description: "Poster Design Gallery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/poster_design/";
+            },},{id: "projects-localization-amp-translation-checker",
+          title: 'Localization &amp;amp; Translation Checker',
+          description: "Web, Apps and Software i translate before",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/translation/";
             },},{id: "projects-video",
           title: 'Video',
           description: "Video i work for myself and commercial",
