@@ -1037,6 +1037,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2018/entry-12631528746/";
         
       },
+    },{id: "post-最後のプロジェクト",
+      
+        title: "最後のプロジェクト",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2018/entry-12631529988/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
