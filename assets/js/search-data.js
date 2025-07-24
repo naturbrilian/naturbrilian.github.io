@@ -1092,6 +1092,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2015/math/";
         
       },
+    },{id: "post-悠長",
+      
+        title: "悠長",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2015/entry-12067374111/";
+        
+      },
     },{id: "post-a-post-with-code",
       
         title: "a post with code",
