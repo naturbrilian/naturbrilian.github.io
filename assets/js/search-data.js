@@ -1059,6 +1059,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2018/entry-12631531599/";
         
       },
+    },{id: "post-同じ私の友人",
+      
+        title: "同じ私の友人",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2016/entry-12145364242/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
