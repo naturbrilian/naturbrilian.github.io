@@ -1026,17 +1026,6 @@ ninja.data = [{
           window.location.href = "/site/blog/2019/entry-12631526888/";
         
       },
-    },{id: "post-go-for-dream-projectコミックとあらすじ",
-      
-        title: "Go For Dream Projectコミックとあらすじ",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/site/blog/2018/entry-12631528746/";
-        
-      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
