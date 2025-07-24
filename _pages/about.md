@@ -6,7 +6,7 @@ subtitle: <a href='#'>About Me</a>. Interest. Works. Etc.
 
 profile:
   align: right
-  image: 499049831_669532622513409_6454759185603879894_n.jpg
+  image: Y-zTEdvT_400x400.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Either you run the day, or the day runs you. - Jim Rohn</p>
