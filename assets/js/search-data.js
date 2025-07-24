@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/site/people/";
           },
-        },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/2018-12-16-entry-12631531599/";
+        
+      },
+    },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
       
