@@ -1261,7 +1261,7 @@ ninja.data = [{
         title: 'Facebook',
         section: 'Socials',
         handler: () => {
-          window.open("https://facebook.com/naturbrilian28", "_blank");
+          window.open("https://facebook.com/naturbrilian", "_blank");
         },
       },{
         id: 'social-github',
@@ -1276,6 +1276,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://gitlab.com/naturbrilian", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/naturbrilian", "_blank");
         },
       },{
         id: 'social-lastfm',
@@ -1318,6 +1325,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://telegram.me/naturbrilian", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/6289686865736", "_blank");
         },
       },{
         id: 'social-x',
