@@ -2,8 +2,8 @@
 layout: page
 title: Video
 description: Video i work for myself and commercial
-img:
-importance: 3
+img: assets/img/video-thumbnail.jpg
+importance: 2
 category: work
 giscus_comments: false
 ---
@@ -30,5 +30,3 @@ giscus_comments: false
         {% include video.liquid path="https://www.youtube.com/embed/9rDDrz5WkLs?si=2CWOZU2ggQwMcSkE" class="img-fluid rounded z-depth-1" controls=true %}
     </div>    
 </div>
-
-{% endraw %}
