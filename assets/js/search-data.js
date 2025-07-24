@@ -1103,6 +1103,17 @@ ninja.data = [{
           window.location.href = "/site/blog/2015/entry-12067374111/";
         
       },
+    },{id: "post-自分の",
+      
+        title: "自分の",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2015/entry-12059372554/";
+        
+      },
     },{id: "post-a-post-with-code",
       
         title: "a post with code",
