@@ -1200,16 +1200,16 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-banner-design-for-my-social-media",
           title: 'Banner design for my social media',
           description: "This is my another project for personal",
           section: "Projects",handler: () => {
               window.location.href = "/projects/banner_design_for_my_social_media/";
+            },},{id: "projects-custom-themes",
+          title: 'Custom Themes',
+          description: "Contain my themes i create before",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/custom_themes/";
             },},{id: "projects-request",
           title: 'Request',
           description: "Banner Commision i design before and some request from client",
