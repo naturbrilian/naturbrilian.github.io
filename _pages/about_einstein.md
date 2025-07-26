@@ -19,30 +19,9 @@ Well, for this game and visual novel, I was initially curious, starting from hea
 ## Translation ##
 To be honest, I first became interested in the world of translation when I learned to make karaoke effects and subtitles. In 2016 I started to dive into the world of translation, even though this was not my major at school. At first it was just to fill my free time, because of my interest in language lessons, both Indonesian and English. And this must be developed further, especially since I want to be able to speak German, Japanese, and Mandarin.
 
-# Another Social Media & Contact #
-If you have any questions, suggestions, or just want to chat, feel free to reach out to me via X, Discord or my another socmed. I’m always excited to connect with people who share similar passions or offer different perspectives.
-
-## Portofolio ##
-[foriio](https://foriio.com/naturbrilian)
-
-## Media social ##
-
-### Facebook ###
-1. [Lieba Natur Brilian](https://www.facebook.com/naturbrilian28)
-2. [Gingalibadeidara Works](https://fb.me/gingalibadeidara.works)
-
-### Twitter ###
-1. [@naturbrilian](https://twitter.com/naturbrilian)
-
-### Fediverse / Mastodon ###
-1. Geoplanetary: [@naturbrilian@geoplanetary.net](https://geoplanetary.net/@naturbrilian)
-2. Sakurajima: [@naturbrilian@sakurajima.social](https://sakurajima.social/@naturbrilian)
-3. Mastodon: [@naturbrilian@mastodon.social](https://mastodon.social/@naturbrilian)
-
 # Project #
 ### Translation ###
 1. Crowdin:[@naturbrilian](https://crowdin.com/profile/naturbrilian)
-2. Github: [Lieba Natur Brilian](https://github.com/naturbrilian)
 
 ### Graphics Design, Vector, etc ###
 1. Deviantart: [gingalibadeidara](https://deviantart.com/gingalibadeidara)
