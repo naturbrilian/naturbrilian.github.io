@@ -13,7 +13,7 @@ Jadi kemarin aku sudah posting pengumuman ini di Facebook dan Peladen Discord sa
 
 Berikut isi postingannya:
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fnaturbrilian2804%2Fposts%2Fpfbid02AeeSRhGGLkfpetTfp4vBaaPDHRi4wq2kepZa67CbFNFVtcvfoupn2EjSENM83Y1Xl&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fzenotype.project%2Fposts%2Fpfbid02AeeSRhGGLkfpetTfp4vBaaPDHRi4wq2kepZa67CbFNFVtcvfoupn2EjSENM83Y1Xl&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 Sebelum membuat status ini, sebelumnya saya sudah menghapus akun Twitter dan [Misskey](https://misskey.id)
 
