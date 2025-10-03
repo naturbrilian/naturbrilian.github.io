@@ -157,3 +157,8 @@ Then when I gave him paypal.me, he insisted on asking for my email address. Just
 
 Since I also enjoy blogging, don’t be surprised if my posts are this long, but also as a reminder to always be careful when making transactions or commissions, especially with PayPal. If you don’t understand, ask your friends who have made transactions using PayPal or chatGPT.
 
+# Pictures Source
+1. [https://www.deviantart.com/iamheavymetalcool48/art/Woman-1220583007](https://www.deviantart.com/iamheavymetalcool48/art/Woman-1220583007)
+2. [https://www.deviantart.com/gingalibadeidara/art/Girls-selfie-Vector-1246837005](https://www.deviantart.com/gingalibadeidara/art/Girls-selfie-Vector-1246837005)
+
+
