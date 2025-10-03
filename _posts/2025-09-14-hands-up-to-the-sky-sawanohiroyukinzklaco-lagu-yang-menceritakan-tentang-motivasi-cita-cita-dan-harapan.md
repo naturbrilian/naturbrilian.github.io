@@ -39,6 +39,7 @@ Liriknya juga membicarakan tentang:
 Dari lirik yang diatas sudah sangat keliatan banget, kalau lagu ini adalah pemberi motivasi, ***“ayo kita bangkit jangan sedih mulu, kita masih punya harapan dan cita-cita yang belum kita capai, ayo semangat”*** ya seperti itulah.
 
 # Makna lirik dan penjelasan detail
+
 | Bagian Lirik                                                                                | Maknanya                                                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **“1, 2, 3, We made it through / 4 & 5, You got it too?”**                                  | Merayakan bahwa kita sudah melewati sesuatu bersama — mungkin tantangan, rasa takut, atau kesulitan — dan bertanya apakah pendengarnya juga melewatinya.                                                                                             |
