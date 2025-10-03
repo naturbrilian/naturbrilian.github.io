@@ -124,6 +124,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/bosan-hidup-ndak-tau/";
         
       },
+    },{id: "post-using-chatgpt-to-create-simple-code",
+      
+        title: "Using chatGPT to create simple code",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/lastfm-to-sbky-en/";
+        
+      },
     },{id: "post-memanfaatkan-chatgpt-untuk-membuat-kodingan-sederhana",
       
         title: "Memanfaatkan chatGPT untuk membuat kodingan sederhana",
