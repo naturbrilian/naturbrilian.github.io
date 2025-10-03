@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-pengalaman-menyedihkan-saat-mau-open-komisi",
+        },{id: "post-what-are-the-characteristics-of-a-scammer",
+      
+        title: "what are the characteristics of a scammer?",
+      
+      description: "Ini adalah lanjutan tulisan kemarin namun hanya versi bahasa inggrisnya saja",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/what-are-the-characteristics-of-a-scammer/";
+        
+      },
+    },{id: "post-pengalaman-menyedihkan-saat-mau-open-komisi",
       
         title: "Pengalaman menyedihkan saat mau open komisi",
       
