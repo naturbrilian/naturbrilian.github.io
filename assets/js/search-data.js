@@ -168,6 +168,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/masalah-di-server-gratisan/";
         
       },
+    },{id: "post-proses-migrasi-sudah-selesai",
+      
+        title: "Proses migrasi sudah selesai",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/proses-migrasi-sudah-selesai/";
+        
+      },
     },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
       
         title: "Sebuah kegaduhan, klarifikasi tidak penting",
