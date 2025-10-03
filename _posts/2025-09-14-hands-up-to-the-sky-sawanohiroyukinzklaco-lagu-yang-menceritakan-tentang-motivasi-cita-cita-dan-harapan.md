@@ -40,15 +40,15 @@ Dari lirik yang diatas sudah sangat keliatan banget, kalau lagu ini adalah pembe
 
 # Makna lirik dan penjelasan detail
 
-| Bagian Lirik                                                                                | Maknanya                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **“1, 2, 3, We made it through / 4 & 5, You got it too?”**                                  | Merayakan bahwa kita sudah melewati sesuatu bersama — mungkin tantangan, rasa takut, atau kesulitan — dan bertanya apakah pendengarnya juga melewatinya.                                                                                             |
-| **“karisome no yozora wo terasu / Handle it with light”**                                   | “Karisome no yozora” bisa diartikan sebagai langit palsu atau semu — mungkin situasi yang tidak sepenuhnya nyata idealnya. “Terasu” = menerangi. “Handle it with light” = hadapi dengan cahaya, positif, harapan.                                    |
-| **“Stand up and get a start … It’s depending on your heart”**                               | Ajakan untuk berdiri, mengambil langkah pertama, memulai lagi. Pilihan itu tergantung pada hati, bukan hanya logika atau tekanan luar.                                                                                                               |
-| **“Can take shivers of your scar … akogare wa itsuka kiete shimau no ka?”**                 | “Shivers of your scar” = rasa takut, luka dalam yang masih terasa. “Akogare” = kekaguman atau impian. Orang bertanya, apakah impian itu akan suatu saat menghilang? Ada keraguan tapi juga keinginan agar impian itu bertahan.                       |
-| **“Raise your hands up to the sky … tijite ita vision ima mirai wo tsunaide”**              | Angkat tangan ke langit sebagai simbol aspirasi. “Vision” yang semula tertutup, kini menghubungkan ke masa depan (“mirai”). Jadi: buka visi semula yang tertutup, jalin dengan masa depan.                                                           |
-| **“Listen up, Troublemaker / How’d you know ‘bout my fever?”**                              | “Troublemaker” mungkin sebagai panggilan kepada orang yang memberontak, yang tidak ingin mengikuti arus umum. “My fever” = semangat, gairah pribadi. Ada rasa bahwa walau di luar tidak banyak yang tahu, seseorang tetap punya semangat yang besar. |
-| **Bagian “Smile with me … Rewrite the codes of memories / Rewrite the chords of melodies”** | Ajakan untuk merayakan perubahan, menjadi lebih bebas (feel so free), membentuk ulang kenangan, cara pandang, bahkan musik (melodi) hidupmu — merubah apa yang sudah baku menjadi sesuatu yang baru dan bermakna.                                    |
+| Bagian Lirik | Maknanya |
+| ------------ | -------- |
+| **“1, 2, 3, We made it through / 4 & 5, You got it too?”** | Merayakan bahwa kita sudah melewati sesuatu bersama — mungkin tantangan, rasa takut, atau kesulitan — dan bertanya apakah pendengarnya juga melewatinya. |
+| **“karisome no yozora wo terasu / Handle it with light”** | “Karisome no yozora” bisa diartikan sebagai langit palsu atau semu. “Terasu” = menerangi. “Handle it with light” = hadapi dengan cahaya, positif, harapan. |
+| **“Stand up and get a start … It’s depending on your heart”** | Ajakan untuk berdiri, mengambil langkah pertama, memulai lagi. Pilihan itu tergantung pada hati, bukan hanya logika atau tekanan luar. |
+| **“Can take shivers of your scar … akogare wa itsuka kiete shimau no ka?”** | “Shivers of your scar” = rasa takut, luka dalam yang masih terasa. “Akogare” = impian/kekaguman. Pertanyaan: apakah impian akan suatu saat hilang? Ada keraguan tapi juga keinginan agar impian itu bertahan. |
+| **“Raise your hands up to the sky … tijite ita vision ima mirai wo tsunaide”** | Angkat tangan ke langit sebagai simbol aspirasi. “Vision” yang semula tertutup, kini terbuka dan terhubung ke masa depan. |
+| **“Listen up, Troublemaker / How’d you know ‘bout my fever?”** | “Troublemaker” mungkin sebagai panggilan untuk orang yang memberontak. “My fever” = semangat pribadi. Walau tak semua tahu, semangat itu tetap menyala. |
+| **“Smile with me … Rewrite the codes of memories / Rewrite the chords of melodies”** | Ajakan untuk merayakan perubahan, menjadi lebih bebas, membentuk ulang kenangan dan melodi hidup — menjadikannya baru dan bermakna. |
 
 # Kesimpulan
 Inti dari lagu ini adalah:
