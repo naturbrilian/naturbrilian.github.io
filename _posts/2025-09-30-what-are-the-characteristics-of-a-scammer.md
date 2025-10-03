@@ -5,6 +5,7 @@ date: 2025-09-30 16:22:23
 description: Ini adalah lanjutan tulisan kemarin namun hanya versi bahasa inggrisnya saja
 tags: blog
 categories: blog
+featured: true
 thumbnail: assets/img/last-chat.png
 ---
 
