@@ -102,6 +102,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/kok-gak-nyambung-ini-gimana/";
         
       },
+    },{id: "post-trust-issue-kepada-seseorang-atau-siapapun-di-x-formerly-twitter",
+      
+        title: "Trust Issue kepada seseorang atau siapapun di X (formerly Twitter)",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/trust-issue-kepada-seseorang-atau-siapapun-di-x-formerly-twitter/";
+        
+      },
     },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
