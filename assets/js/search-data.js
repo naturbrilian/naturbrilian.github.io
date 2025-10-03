@@ -62,7 +62,7 @@ ninja.data = [{
       
         title: "Pengalaman menyedihkan saat mau open komisi",
       
-      description: "Tutorial yang mungkin hampir semua orang lupa",
+      description: "",
       section: "Posts",
       handler: () => {
         
