@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-event-dekat-rumah",
+        },{id: "post-sempat-frustasi-karena-masalah-driver-wifi-di-linux",
+      
+        title: "Sempat frustasi karena masalah driver wifi di Linux",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/sempat-frustasi-karena-masalah-driver-wifi-di-linux/";
+        
+      },
+    },{id: "post-event-dekat-rumah",
       
         title: "Event dekat rumah",
       
