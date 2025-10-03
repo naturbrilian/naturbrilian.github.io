@@ -135,6 +135,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/project-gingalibadeidara-works-dihentikan/";
         
       },
+    },{id: "post-tulisan-disini-benar-benar-gak-penting-tapi-aku-ingin-mengatakan-sesuatu",
+      
+        title: "Tulisan disini benar-benar gak penting, tapi aku ingin mengatakan sesuatu",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/tulisan-disini-benar-benar-gak-penting-tapi-aku-ingin-mengatakan-sesuatu/";
+        
+      },
     },{id: "post-mengatasi-masalah-file-di-flashdisk-yang-ke-hidden-karena-virus",
       
         title: "Mengatasi masalah file di flashdisk yang ke hidden karena virus",
