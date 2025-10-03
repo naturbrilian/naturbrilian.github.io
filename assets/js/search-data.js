@@ -113,6 +113,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/sempat-frustasi-karena-masalah-driver-wifi-di-linux/";
         
       },
+    },{id: "post-hands-up-to-the-sky-sawanohiroyuki-nzk-laco-lagu-yang-menceritakan-tentang-motivasi-cita-cita-dan-harapan",
+      
+        title: "Hands Up to the Sky –SawanoHiroyuki[nZk]:Laco, lagu yang menceritakan tentang motivasi, cita-cita, dan...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/hands-up-to-the-sky-sawanohiroyukinzklaco-lagu-yang-menceritakan-tentang-motivasi-cita-cita-dan-harapan/";
+        
+      },
     },{id: "post-permasalahan-502-bad-request-yang-sangat-mengganggu",
       
         title: "Permasalahan 502 bad request yang sangat mengganggu",
