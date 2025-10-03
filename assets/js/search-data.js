@@ -179,6 +179,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/proses-migrasi-sudah-selesai/";
         
       },
+    },{id: "post-the-migration-process-is-complete",
+      
+        title: "The migration process is complete.",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/migrate-is-done/";
+        
+      },
     },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
       
         title: "Sebuah kegaduhan, klarifikasi tidak penting",
