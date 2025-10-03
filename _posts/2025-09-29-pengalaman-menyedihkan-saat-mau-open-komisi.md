@@ -2,7 +2,6 @@
 layout: post
 title: Pengalaman menyedihkan saat mau open komisi
 date: 2025-09-29 15:40:23
-description: Tutorial yang mungkin hampir semua orang lupa
 tags: blog
 categories: blog
 thumbnail: assets/img/thumbnail-komis-nanges.jpg
