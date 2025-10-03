@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-sempat-frustasi-karena-masalah-driver-wifi-di-linux",
+        },{id: "post-pengalaman-menyedihkan-saat-mau-open-komisi",
+      
+        title: "Pengalaman menyedihkan saat mau open komisi",
+      
+      description: "Tutorial yang mungkin hampir semua orang lupa",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/pengalaman-menyedihkan-saat-mau-open-komisi/";
+        
+      },
+    },{id: "post-sempat-frustasi-karena-masalah-driver-wifi-di-linux",
       
         title: "Sempat frustasi karena masalah driver wifi di Linux",
       
