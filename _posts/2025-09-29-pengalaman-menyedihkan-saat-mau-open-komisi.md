@@ -100,12 +100,6 @@ Ternyata berdasarkan analisa sementara “Damian Carlo” ini identik dengan nam
 
 Tidak hanya itu, ada kemungkinan ini adalah nama gabungan dari tentara negara sana yang bernama Carlo.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gambar-asli.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 ### 3. Ternyata ada pengguna deviantart yang membuat gambar serupa
 Ini lebih heran lagi, aku mencoba mengunggah vektor yang aku kerjakan kemarin lalu ada rekomendasi postingan & aku kaget dengan gambar yang sama tapi versi low effortnya
 <div class="row mt-3">
