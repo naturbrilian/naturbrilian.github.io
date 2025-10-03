@@ -80,6 +80,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/pengalaman-menyedihkan-saat-mau-open-komisi/";
         
       },
+    },{id: "post-long-kiss-goodbye-lagu-yang-penuh-hubungan-cinta-kenangan-murid-dan-kesedihan-seorang-kekasih-yang-ditinggalkan",
+      
+        title: "Long Kiss Goodbye, lagu yang penuh hubungan cinta, kenangan murid dan, kesedihan seorang...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/long-kiss-goodbye-lagu-yang-penuh-hubungan-cinta-kenangan-murid-dan-kesedihan-seorang-kekasih-yang-ditinggalka/";
+        
+      },
     },{id: "post-karya-visual-novel-terbaru-dari-crystalia-nuansa-lagu-bergenre-edm-dan-cerita-berbalut-teknologi",
       
         title: "Karya Visual Novel terbaru dari Crystalia, nuansa lagu bergenre edm dan cerita berbalut...",
