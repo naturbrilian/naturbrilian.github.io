@@ -113,6 +113,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/trust-issue-kepada-seseorang-atau-siapapun-di-x-formerly-twitter/";
         
       },
+    },{id: "post-alasan-gak-masuk-akal-soal-berhentinya-project-gingalibadeidara-works",
+      
+        title: "Alasan gak masuk akal soal berhentinya project Gingalibadeidara Works",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/alasan-gak-masuk-akal-soal-berhentinya-project-gingalibadeidara-works/";
+        
+      },
     },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
