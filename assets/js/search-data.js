@@ -146,6 +146,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/lastfm-autopost-to-bluesky/";
         
       },
+    },{id: "post-tidak-bisa-lagi-bergantung-dengan-sosial-media-korporat-karena-kebobrokan-sistem-pada-iklan",
+      
+        title: "Tidak bisa lagi bergantung dengan sosial media korporat karena kebobrokan sistem pada iklan...",
+      
+      description: "Herannya kenapa j***l justru dilegalkan?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/kebobrokan-sosmed-korporat-dan-sistem-ads/";
+        
+      },
     },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
       
         title: "Sebuah kegaduhan, klarifikasi tidak penting",
