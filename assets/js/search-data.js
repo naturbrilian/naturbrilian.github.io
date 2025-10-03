@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
+        },{id: "post-event-dekat-rumah",
+      
+        title: "Event dekat rumah",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/event-dekat-rumah/";
+        
+      },
+    },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
       
@@ -740,11 +751,11 @@ ninja.data = [{
           window.location.href = "/blog/2022/post-pertama-di-tahun-2022/";
         
       },
-    },{id: "post-https-www-shirayuki-chan-my-id-2021-08-light-novel-moriarty-patriot-volume-1-3-html",
+    },{id: "post-light-novel-moriarty-the-patriot-volume-1-3-bahasa-indonesia",
       
-        title: 'https://www.shirayuki-chan.my.id/2021/08/light-novel-moriarty-patriot-volume-1-3.html <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Light Novel Moriarty The Patriot Volume 1-3 Bahasa Indonesia <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "",
+      description: "JUST TO ANSWER YOUR CURIOSITY, ESPECIALLY ABOUT ANIME :)",
       section: "Posts",
       handler: () => {
         
@@ -817,9 +828,9 @@ ninja.data = [{
           window.location.href = "/blog/2021/artikel-spesial-kustomisasi-tema-untuk/";
         
       },
-    },{id: "post-https-renatl-blogspot-com-2021-04-novel-failure-alchemist-of-royal-html",
+    },{id: "post-novel-the-failure-alchemist-of-the-royal-capital-my-job-is-a-failure-so-i-ll-manage-my-store-carefreely-bahasa-indonesia-rena-translations",
       
-        title: 'https://renatl.blogspot.com/2021/04/novel-failure-alchemist-of-royal.html <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: '[Novel] The Failure Alchemist of the Royal Capital ~My job is a failure... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "",
       section: "Posts",
@@ -1004,11 +1015,11 @@ ninja.data = [{
           window.location.href = "/blog/2019/entry-12495863267/";
         
       },
-    },{id: "post-https-yummyulia-blogspot-com-2019-03-the-big-five-team-of-miniature-program-html",
+    },{id: "post-my-absurd-imaginations-the-big-five-team-of-miniature-program",
       
-        title: 'https://yummyulia.blogspot.com/2019/03/the-big-five-team-of-miniature-program.html <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: '~MY ABSURD IMAGINATIONS~: THE BIG FIVE TEAM OF MINIATURE PROGRAM <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "",
+      description: "HALOOOOO! APA KABAR KALIAN?! KALIAN PASTI MERINDUKANKU~ //TAMPAR",
       section: "Posts",
       handler: () => {
         
