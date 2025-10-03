@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Event dekat rumah
-date: 2025-08-31 00:33:51
-tags: 音楽のおすすめ
+date: 2025-08-31 02:33:51
+tags: keluh kesah
 categories: rant
 ---
 
