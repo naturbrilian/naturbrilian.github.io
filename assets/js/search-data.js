@@ -157,6 +157,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/kebobrokan-sosmed-korporat-dan-sistem-ads/";
         
       },
+    },{id: "post-masalah-di-server-gratisan",
+      
+        title: "Masalah di server gratisan",
+      
+      description: "Sebenarnya ini salinan tulisan dari wordpress resmi saat website masih bermasalah.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/masalah-di-server-gratisan/";
+        
+      },
     },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
       
         title: "Sebuah kegaduhan, klarifikasi tidak penting",
