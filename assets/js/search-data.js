@@ -124,6 +124,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/bosan-hidup-ndak-tau/";
         
       },
+    },{id: "post-memanfaatkan-chatgpt-untuk-membuat-kodingan-sederhana",
+      
+        title: "Memanfaatkan chatGPT untuk membuat kodingan sederhana",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/lastfm-autopost-to-bluesky/";
+        
+      },
     },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
       
         title: "Sebuah kegaduhan, klarifikasi tidak penting",
