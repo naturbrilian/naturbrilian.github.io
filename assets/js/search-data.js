@@ -102,6 +102,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/sempat-frustasi-karena-masalah-driver-wifi-di-linux/";
         
       },
+    },{id: "post-permasalahan-502-bad-request-yang-sangat-mengganggu",
+      
+        title: "Permasalahan 502 bad request yang sangat mengganggu",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/permasalahan-502-bad-request-yang-sangat-mengganggu/";
+        
+      },
     },{id: "post-event-dekat-rumah",
       
         title: "Event dekat rumah",
