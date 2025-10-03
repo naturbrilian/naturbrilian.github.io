@@ -69,6 +69,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/event-dekat-rumah/";
         
       },
+    },{id: "post-bosan-hidup-ndak-tau",
+      
+        title: "Bosan hidup, ndak tau?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/bosan-hidup-ndak-tau/";
+        
+      },
     },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
