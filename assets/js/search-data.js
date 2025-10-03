@@ -91,6 +91,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/sebuah-kegaduhan-klarifikasi-tidak-penting/";
         
       },
+    },{id: "post-kok-gak-nyambung-ini-gimana",
+      
+        title: "Kok gak nyambung, ini gimana?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/kok-gak-nyambung-ini-gimana/";
+        
+      },
     },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
