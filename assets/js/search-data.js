@@ -80,6 +80,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/bosan-hidup-ndak-tau/";
         
       },
+    },{id: "post-sebuah-kegaduhan-klarifikasi-tidak-penting",
+      
+        title: "Sebuah kegaduhan, klarifikasi tidak penting",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/sebuah-kegaduhan-klarifikasi-tidak-penting/";
+        
+      },
     },{id: "post-memutuskan-untuk-menghentikan-proyek-gingalibadeidara-works",
       
         title: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
