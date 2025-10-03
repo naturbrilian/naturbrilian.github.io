@@ -80,6 +80,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/pengalaman-menyedihkan-saat-mau-open-komisi/";
         
       },
+    },{id: "post-karya-visual-novel-terbaru-dari-crystalia-nuansa-lagu-bergenre-edm-dan-cerita-berbalut-teknologi",
+      
+        title: "Karya Visual Novel terbaru dari Crystalia, nuansa lagu bergenre edm dan cerita berbalut...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/karya-visual-novel-terbaru-dari-crystalia-nuansa-lagu-bergenre-edm-dan-cerita-berbalut-teknologi/";
+        
+      },
     },{id: "post-sempat-frustasi-karena-masalah-driver-wifi-di-linux",
       
         title: "Sempat frustasi karena masalah driver wifi di Linux",
