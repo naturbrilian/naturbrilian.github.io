@@ -86,6 +86,14 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Cache Jekyll
+        uses: actions/cache@v4
+        with:
+          path: |
+            vendor/bundle
+            .jekyll-cache
+            _site/assets/img
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/Gemfile.lock') }}
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
@@ -101,3 +109,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+
