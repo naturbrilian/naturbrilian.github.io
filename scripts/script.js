@@ -4,7 +4,7 @@
 const translations = {
     en: {
         nav_karya: "About", nav_cv: "CV", nav_layanan: "Services", nav_kontak: "Contact", nav_news: "News",
-        hero_title: "Hello, I'm Lieba Natur Brilian", hero_desc: " I am a graphic designer, video editor, and contributor translator for various services, applications, and software. People also know me as gingalibadeidara on other websites such as Alphacoders.", hero_btn: "Let's Talk",
+        hero_title: "Hello, I'm Lieba Natur Brilian", hero_desc: " Graphic Designer & Video Editor, also translator as a part-time side job | EN/ID/JV | And also understand a little bit about HTML, py and Pascal", hero_btn: "Let's Talk",
         port_title: "Selected Works", port_1_title: "Vector Anime Style", port_1_desc: "Exploring character rendering with a focus on lighting details and hair texture finishing.", port_2_title: "Multilingual Personal Site", port_2_desc: "A lightweight and super fast portfolio website, built using the Astro framework.", port_3_title: "Custom Last.fm Web Player", port_3_desc: "Custom UI widget that fetches and displays the currently playing song in real-time via API.", port_5_desc: "Some other videos I worked on previously.",
         serv_title: "What I Do", serv_1_desc: "Creating character illustrations and digital artwork with a focus on detail, expression, and vibrant lighting.", serv_2_desc: "Building super fast and responsive static websites using modern technologies like HTML, CSS, and Astro.",
         
@@ -81,7 +81,7 @@ const translations = {
 
     id: {
         nav_karya: "Tentang", nav_cv: "CV", nav_layanan: "Layanan", nav_kontak: "Kontak", nav_news: "Kabar",
-        hero_title: "Halo, Saya Lieba Natur Brilian", hero_desc: "Aku seorang desainer grafis, editor video, dan penerjemah kontributor untuk berbagai layanan, aplikasi, dan perangkat lunak. Orang-orang juga mengenalku sebagai gingalibadeidara di situs web lain seperti Alphacoders.", hero_btn: "Mari Berdiskusi",
+        hero_title: "Halo, Saya Lieba Natur Brilian", hero_desc: "Desainer Grafis & Video Editor, juga translator sebagai pekerjaan sampingan | EN/ID/JV | Dan juga paham sedikit tentang HTML, py dan Pascal", hero_btn: "Mari Berdiskusi",
         port_title: "Karya Pilihan", port_1_title: "Anime Vektor Style", port_1_desc: "Eksplorasi rendering karakter dengan fokus pada detail pencahayaan dan penyelesaian tekstur rambut.", port_2_title: "Multilingual Personal Site", port_2_desc: "Website portofolio yang ringan dan super cepat, dibangun menggunakan framework Astro.", port_3_title: "Custom Last.fm Web Player", port_3_desc: "Beberapa video lainnya, yang sebelumnya saya kerjakan.", port_5_desc: "Beberapa video lainnya, yang sebelumnya saya kerjakan.",
         serv_title: "Apa yang Saya Kerjakan", serv_1_desc: "Menciptakan ilustrasi karakter dan karya seni digital dengan fokus pada detail, ekspresi, dan pencahayaan yang hidup.", serv_2_desc: "Membangun website statis yang super cepat dan responsif menggunakan teknologi modern seperti HTML, CSS, dan Astro.",
         
@@ -159,7 +159,7 @@ const translations = {
 
     jp: {
         nav_karya: "作品", nav_cv: "履歴書", nav_layanan: "サービス", nav_kontak: "連絡先", nav_news: "ニュース",
-        hero_title: "こんにちは、Natur Brilianです", hero_desc: "グラフィックデザイナー、ビデオ編集者、そして様々なサービス、アプリケーション、ソフトウェアの翻訳者として活動しています。アルファコーダーズなどの他のウェブサイトでは、gingalibadeidara としても知られています。", hero_btn: "相談しましょう",
+        hero_title: "こんにちは、Lieba Natur Brilianです", hero_desc: "グラフィックデザイナー兼ビデオエディター、副業で翻訳もしています | 英語/インドネシア語/日本語 | HTML、Python、Pascalについても少し理解しています", hero_btn: "相談しましょう",
         port_title: "厳選された作品", port_1_title: "デジタルキャラクターイラスト", port_1_desc: "光源のディテールと髪の質感の仕上げに焦点を当てたキャラクターレンダリングの探求。", port_2_title: "多言語個人サイト", port_2_desc: "Astroフレームワークを使用して構築された、軽量で超高速のポートフォリオWebサイト。", port_3_title: "カスタムLast.fm Webプレーヤー", port_3_desc: "APIを介して現在再生中の曲をリアルタイムで取得して表示するカスタムUIウィジェット。", port_5_desc: "以前私が制作した他のいくつかの動画。",
         serv_title: "私の仕事", serv_1_desc: "ディテール、表情、鮮やかな照明に焦点を当てたキャラクターイラストやデジタルアートワークの作成。", serv_2_desc: "HTML、CSS、Astroなどの最新テクノロジーを使用して、超高速でレスポンシブな静的Webサイトを構築します。",
         
