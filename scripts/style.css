@@ -305,7 +305,7 @@ nav {
 /* --- HERO SECTION (Halaman Utama) --- */
 .hero {
     /* Gunakan background-image agar spesifik */
-    background-image: var(--hero-overlay), url('/assets-hd/my-avatar.png');
+    background-image: var(--hero-overlay), url('/../assets-hd/my-avatar.png');
     background-color: var(--bg-surface); /* Warna cadangan jika gambar gagal dimuat */
     background-size: cover;
     background-position: center;
