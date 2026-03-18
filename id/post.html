@@ -181,7 +181,7 @@
                 return;
             }
 
-            fetch(`posts/${lang}/${postId}.md`)
+            fetch(`posts/${postId}.md`)
                 .then(response => {
                     if (!response.ok) throw new Error();
                     return response.text();
