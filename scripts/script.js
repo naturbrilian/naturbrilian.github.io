@@ -124,6 +124,23 @@ window.onload = changeLanguage;
 
 // --- DATABASE BLOG MULTIBAHASA ---
 const blogPosts = [
+        {
+        id: "test1",
+        date: "12 Maret 2026",
+        category: "Web Development",
+        image: "https://picsum.photos/seed/blog1/600/400",
+        link: "test1",
+        title: {
+            id: "Eksperimen Desain Portofolio Baru",
+            en: "New Portfolio Design Experiment",
+            jp: "新しいポートフォリオデザインの実験"
+        },
+        desc: {
+            id: "Catatan singkat tentang bagaimana saya mendesain ulang antarmuka portofolio menggunakan palet warna Catppuccin.",
+            en: "A quick note on how I redesigned my portfolio interface using the Catppuccin color palette.",
+            jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
+        }
+    },
     {
         id: "test1",
         date: "12 Maret 2026",
@@ -142,31 +159,31 @@ const blogPosts = [
         }
     },
     {
-        id: "post2",
-        date: "10 Maret 2026",
-        category: "Translation",
-        image: "https://picsum.photos/seed/blog2/600/400",
+        id: "memverifikasi-kepemilikan-tautan-ternyata-mudah",
+        date: "19 Feb 2026",
+        category: "Verification",
+        image: "assets/rel-me.png",
         link: "artikel-2.html",
         title: {
-            id: "Suka Duka Menjadi Penerjemah Lepas",
-            en: "The Ups and Downs of Freelance Translation",
+            id: "Memverifikasi kepemilikan tautan ternyata mudah",
+            en: "Verifying link ownership is surprisingly easy",
             jp: "フリーランス翻訳者の悲喜こもごも"
         },
         desc: {
-            id: "Berbagi pengalaman saat menggarap proyek lokalisasi di platform Crowdin dan tantangannya.",
-            en: "Sharing experiences while working on localization projects on the Crowdin platform and its challenges.",
+            id: "Cara paling sederhana untuk memverifikasi kepemilikan tautan.",
+            en: "The simplest way to verify link ownership.",
             jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
         }
     },
     {
-        id: "post2",
-        date: "10 Maret 2026",
-        category: "Translation",
-        image: "https://picsum.photos/seed/blog2/600/400",
+        id: "script-skin-tutorial",
+        date: "19 Jan 2026",
+        category: "Tutorial",
+        image: "assets/script-tutorial.png",
         link: "artikel-2.html",
         title: {
-            id: "Suka Duka Menjadi Penerjemah Lepas",
-            en: "The Ups and Downs of Freelance Translation",
+            id: "Cara membuat skrip untuk dukungan multi-warna pada skinmu sendiri",
+            en: "How to create a script for multi-color support on your own skins",
             jp: "フリーランス翻訳者の悲喜こもごも"
         },
         desc: {
@@ -353,3 +370,40 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     }
 });
+
+// ==========================================
+// TUKANG SUNTIK TOMBOL COPY DI CODEBLOCK
+// ==========================================
+function addCopyButtons() {
+    // Cari semua kotak kode di dalam artikel
+    const codeBlocks = document.querySelectorAll('#markdown-content pre');
+
+    codeBlocks.forEach((pre) => {
+        // Bikin elemen tombol
+        const button = document.createElement('button');
+        button.className = 'copy-code-btn';
+        button.innerHTML = '📋 Copy'; // Bisa diganti icon SVG kalau lu mau
+
+        // Tempelin tombolnya ke dalam kotak <pre>
+        pre.appendChild(button);
+
+        // Kasih nyawa biar pas diklik dia nge-copy teks
+        button.addEventListener('click', () => {
+            // Ambil teks kodenya doang
+            const codeText = pre.querySelector('code').innerText;
+
+            // Perintah copy ke clipboard bawaan browser
+            navigator.clipboard.writeText(codeText).then(() => {
+                button.innerHTML = '✅ Copied!';
+                button.style.color = '#a6da95'; // Warna hijau Catppuccin
+                
+                // Balikin ke tulisan Copy setelah 2 detik
+                setTimeout(() => {
+                    button.innerHTML = '📋 Copy';
+                    button.style.color = ''; 
+                }, 2000);
+            });
+        });
+    });
+}
+        
