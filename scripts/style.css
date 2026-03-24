@@ -1685,20 +1685,12 @@ body {
 }
 
 /* Sabuk pengaman ekstra biar layar nggak bisa digeser ke kanan-kiri */
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
 
 /* ========================================= */
 /* 1. ATURAN DASAR ANTI-MELAR (Aman buat semua) */
 /* ========================================= */
 *, *::before, *::after {
     box-sizing: border-box;
-}
-
-body, html {
-    overflow-x: hidden; /* Cuma matiin scroll horizontal yang bocor */
 }
 
 /* Biar teks/link panjang selalu break, aman buat Desktop & HP */
