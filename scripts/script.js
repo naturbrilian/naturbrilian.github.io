@@ -125,14 +125,14 @@ window.onload = changeLanguage;
 // --- DATABASE BLOG MULTIBAHASA ---
 const blogPosts = [
         {
-        id: "test1",
-        date: "12 Maret 2026",
-        category: "Web Development",
-        image: "https://picsum.photos/seed/blog1/600/400",
+        id: "ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir",
+        date: "01 April 2026",
+        category: "Radio",
+        image: "assets/pexels-adiardizulfansyah-32507863.jpg",
         link: "test1",
         title: {
             id: "Eksperimen Desain Portofolio Baru",
-            en: "New Portfolio Design Experiment",
+            en: "As the era of listening to the radio slowly fades away",
             jp: "新しいポートフォリオデザインの実験"
         },
         desc: {

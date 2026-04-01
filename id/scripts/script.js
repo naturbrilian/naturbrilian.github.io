@@ -125,18 +125,18 @@ window.onload = changeLanguage;
 // --- DATABASE BLOG MULTIBAHASA ---
 const blogPosts = [
         {
-        id: "test1",
-        date: "12 Maret 2026",
-        category: "Web Development",
-        image: "https://picsum.photos/seed/blog1/600/400",
+        id: "ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir",
+        date: "01 April 2026",
+        category: "Radio",
+        image: "/assets/pexels-adiardizulfansyah-32507863.jpg",
         link: "test1",
         title: {
-            id: "Eksperimen Desain Portofolio Baru",
+            id: "Ketika era mendengarkan radio perlahan menghilang",
             en: "New Portfolio Design Experiment",
             jp: "新しいポートフォリオデザインの実験"
         },
         desc: {
-            id: "Catatan singkat tentang bagaimana saya mendesain ulang antarmuka portofolio menggunakan palet warna Catppuccin.",
+            id: "Persaingan dengan layanan musik streaming digital dan nasib kedepannya.",
             en: "A quick note on how I redesigned my portfolio interface using the Catppuccin color palette.",
             jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
         }

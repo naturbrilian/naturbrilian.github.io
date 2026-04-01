@@ -126,7 +126,7 @@ window.onload = changeLanguage;
 const blogPosts = [
     {
         id: "test1",
-        date: "12 Maret 2026",
+        date: "01 April 2026",
         category: "Web Development",
         image: "https://picsum.photos/seed/blog1/600/400",
         link: "test1",
