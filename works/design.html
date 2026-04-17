@@ -85,6 +85,61 @@
         </nav>
     </header>
 
+    <main class="page-container">
+        <div class="page-header">
+            <h1 data-i18n="gal_title">Design</h1>
+            <p data-i18n="gal_desc">Eksplorasi seni digital, sketsa karakter, dan eksperimen warna.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="../assets/chisato.jpg" alt="Dummy 1"></div>
+            <div class="gallery-item"><img src="../assets/kyouka_no_kanata_cover_facebook_by_yusariko_by_gingalibadeidara_dacf3rb-pre.jpg" alt="Dummy 2"></div>
+            <div class="gallery-item"><img src="../assets/takt.png" alt="Dummy 3"></div>
+            <div class="gallery-item"><img src="../assets/suisei.png" alt="Dummy 4"></div>
+            <div class="gallery-item"><img src="../assets/sugar_apple_fairy_tale_header_by_gingalibadeidara_dfpz5tk-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/sousaku_kanojo_no_ren_ai_koushiki___twitter_cover_by_gingalibadeidara_devlhn2-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/samapoke_design_for_anime_spring_2025_by_gingalibadeidara_djil4j4-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/sakura_haruno_cover_by_gingalibadeidara_dagmzqu-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/riliii_by_gingalibadeidara_dhllnvy-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/help_by_gingalibadeidara_dk5rge2-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/hanashura_remake_by_gingalibadeidara_dizdswx-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/image-54.png"></div>
+            <div class="gallery-item"><img src="../assets/cover_fb_p_chan_from_gun_gale_alternative_by_gingalibadeidara_dcahzh8-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/aijou_karen_cover_meme_by_gingalibadeidara_ddyq1hj-pre.jpg"></div>
+            <div class="gallery-item"><img src="../assets/banner_naturbrilian_sosmed_ver_by_gingalibadeidara_dk16mwu-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/princess_connect_re__dive_banner_by_gingalibadeidara_deyyaa8-fullview.jpg"></div>
+
+            <div class="gallery-item"><img src="../assets/eiki_shiki_poster_design_layout_by_gingalibadeidara_dg9i06d-fullview.jpg" alt="Dummy 5"></div>
+            <div class="gallery-item"><img src="../assets/daa8imc-f5113d3b-dcce-47c4-a8bc-2bac440c9167.jpg"></div>
+            <div class="gallery-item"><img src="../assets/merry-christsmas-2025.png" alt="Dummy 6"></div>
+            <div class="gallery-item"><img src="../assets/de37m9i-836e0d59-e5fe-453a-b4a4-4226ee35b23a.png"></div>
+            <div class="gallery-item"><img src="../assets/sena.jpg"></div>
+            <div class="gallery-item"><img src="../assets/alice-schuberg.jpg"></div>
+            <div class="gallery-item"><img src="../assets/tenko.png" alt="Dummy 7"></div>
+            <div class="gallery-item"><img src="../assets/sachiko.jpg" alt="Dummy 8"></div>
+            <div class="gallery-item"><img src="../assets/chika.png" alt="Dummy 9"></div>
+            <div class="gallery-item"><img src="../assets/hiiro_amagi_desktop_design_by_gingalibadeidara_dgnvwkt-fullview.jpg"></div>
+            <div class="gallery-item"><img src="../assets/deowjim-0bd2c9e1-96dd-429e-803e-cd9e3ba3daeb.png"></div>
+            <div class="gallery-item"><img src="../assets/df0v829-dcd7ad72-35dc-4e7b-b4cc-d89d6858ba7d.png"></div>
+            <div class="gallery-item"><img src="../assets/dem5uen-a80617f4-e329-4c83-af69-312fd0783200.png"></div>
+            <div class="gallery-item"><img src="../assets/dfvodf0-b0795dd1-7213-489e-b049-259aed84ff20.png"></div>
+            <div class="gallery-item"><img src="../assets/cringy.jpg"></div>
+
+
+            <div class="gallery-item"><img src="assets-hd/IMG20230922210206.webp"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251123110741.jpg"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251123110810.jpg"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251123111026.jpg"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251123111033.jpg"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251123111138.jpg"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251015080632.webp"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20251015100934.webp"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20240606101152.webp"></div>
+            <div class="gallery-item"><img src="assets-hd/IMG20240606072251.webp"></div>
+            
+        </div>
+    </main>
+
 
     <footer id="kontak">
         <div class="footer-content">
@@ -105,6 +160,11 @@
         </div>
     </footer>
 
+    <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="fullImage">
+        </div>
+
     <script src="/scripts/script.js"></script>
     <script>
         document.getElementById('languageSelect').addEventListener('change', changeLanguage);
@@ -114,10 +174,10 @@
     <div class="lastfm-info">
         <div class="lastfm-status" id="lastfm-status">
             <span class="eq-bar"></span><span class="eq-bar"></span><span class="eq-bar"></span>
-            <span data-i18n="now_playing">Sedang Diputar</span>
+            <span data-i18n="now_playing">Now Listening</span>
         </div>
-        <span class="lastfm-song" id="lastfm-song" data-i18n="loading_song">Memuat...</span>
-        <span class="lastfm-artist" id="lastfm-artist" data-i18n="loading_artist">Mencari frekuensi...</span>
+        <span class="lastfm-song" id="lastfm-song" data-i18n="loading_song">Loading...</span>
+        <span class="lastfm-artist" id="lastfm-artist" data-i18n="loading_artist">Searching for frequency...</span>
     </div>
 </body>
 </html>
