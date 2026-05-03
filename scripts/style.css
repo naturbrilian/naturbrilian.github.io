@@ -616,17 +616,20 @@ footer {
     background: var(--footer-bg);
     color: var(--text-muted);
     text-align: center;
-    padding: 40px 20px;
+    /* 👇 Ganti 30px jadi 15px atau 10px biar atas-bawahnya makin tipis */
+    padding: 15px 20px; 
     border-top: 1px solid var(--border-col);
-    margin-top: auto; /* Memastikan footer selalu di bawah */
+    margin-top: auto; 
 }
 
 .footer-content {
-    max-width: 800px;
+    /* (Pastikan max-width ini udah sesuai sama Navbar lu kayak yang kita bahas tadi ya) */
+    max-width: 32px; 
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* 👇 Kecilin juga gap-nya biar isinya nggak terlalu renggang */
+    gap: 5px; 
     align-items: center;
 }
 
@@ -1769,4 +1772,134 @@ body {
 .copy-code-btn:hover {
     background-color: var(--accent, #c6a0f6);
     color: #24273a;
+}
+
+/* ========================================= */
+/* LAYOUT FOOTER KIRI (SOSMED) & KANAN (BADGES)*/
+/* ========================================= */
+
+.footer-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 👇 UBAH JADI INI: Biar tulisan atasnya sejajar lurus */
+    width: 100%;  
+    padding-bottom: 20px;
+    margin-bottom: 20px;;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+/* Tarik Sosmed ke Kiri */
+.footer-left .social-icons {
+    justify-content: flex-start !important; 
+    margin: 10px 0 0 0 !important;
+}
+
+/* Penempatan Gambar 88x31 */
+.badges-88x31 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Efek Retro Pixelated buat Gambar 88x31 */
+.badges-88x31 img {
+    image-rendering: pixelated; /* Biar gambarnya tajem khas retro! */
+    border: 1px solid var(--border-col, #494d64);
+    border-radius: 2px;
+    transition: transform 0.2s ease;
+}
+
+/* ========================================= */
+/* MODE HP: BALIKIN SEMUA KE TENGAH          */
+/* ========================================= */
+@media (max-width: 768px) {
+    .footer-split {
+        flex-direction: column; /* Tumpuk ke bawah */
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+
+    .footer-left .social-icons {
+        justify-content: center !important; /* Balikin ke tengah di HP */
+    }
+
+    .badges-88x31 {
+        justify-content: center;
+    }
+}
+.footer-content {
+    width: 100%;
+    
+    /* 👇 CONTEK ANGKA DARI 'nav' LU DI SINI! 👇 */
+    max-width: 1200px; /* Ganti pakai max-width punya nav lu */
+    padding: 0 50px;   /* Ganti pakai padding punya nav lu */
+    /* 👆 --------------------------------- 👆 */
+
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* ========================================= */
+/* COPYRIGHT TEXT                            */
+/* ========================================= */
+.copyright-text {
+    text-align: left; /* Tetep rata kiri di PC */
+    width: 100%;
+    display: block; /* KUNCI: Biar garis batasnya ngebentang full dari kiri ke kanan! */
+    margin-top: 0px;
+    padding-top: 15px; 
+    line-height: 1.6; /* KUNCI: Biar kalau teks kepanjangan dan turun baris, nggak nempel-nempel */
+    color: var(--text-muted, #a5adce); 
+}
+
+/* Pastiin jarak bawah split nggak kegedean */
+.footer-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; 
+    margin-bottom: 0px; /* Rapatkan jaraknya ke copyright */
+}
+
+@media (max-width: 768px) {
+    .footer-split {
+        flex-direction: column;
+        gap: 30px; 
+    }
+
+    .footer-left, .footer-right {
+        text-align: center;
+        width: 100%; /* Biar elemen di dalamnya gampang ditengahin */
+    }
+
+    /* 👇 FORMASI 4-3 BUAT 7 IKON SOSMED 👇 */
+    .footer-left .social-icons {
+        max-width: 240px; /* Angka sakti! Sengaja disempitin biar ikon ke-5 kepaksa turun ke bawah */
+        margin: 15px auto 0 !important; 
+        justify-content: center !important;
+    }
+
+    .badges-88x31 {
+        justify-content: center !important;
+    }
+
+    /* Copyright balik ke tengah pas di HP */
+    .copyright-text {
+        text-align: center;
+        padding: 20px 15px 0; /* Kasih bantalan kiri-kanan biar teks nggak nabrak layar HP */
+    }
 }
