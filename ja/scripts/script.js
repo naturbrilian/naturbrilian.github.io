@@ -124,9 +124,26 @@ window.onload = changeLanguage;
 
 // --- DATABASE BLOG MULTIBAHASA ---
 const blogPosts = [
+        {
+        id: "ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir",
+        date: "01 April 2026",
+        category: "Radio",
+        image: "/assets/pexels-adiardizulfansyah-32507863.jpg",
+        link: "test1",
+        title: {
+            id: "Ketika era mendengarkan radio perlahan menghilang",
+            en: "New Portfolio Design Experiment",
+            jp: "新しいポートフォリオデザインの実験"
+        },
+        desc: {
+            id: "Persaingan dengan layanan musik streaming digital dan nasib kedepannya.",
+            en: "A quick note on how I redesigned my portfolio interface using the Catppuccin color palette.",
+            jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
+        }
+    },
     {
         id: "test1",
-        date: "01 April 2026",
+        date: "12 Maret 2026",
         category: "Web Development",
         image: "https://picsum.photos/seed/blog1/600/400",
         link: "test1",
@@ -142,31 +159,31 @@ const blogPosts = [
         }
     },
     {
-        id: "post2",
-        date: "10 Maret 2026",
-        category: "Translation",
-        image: "https://picsum.photos/seed/blog2/600/400",
+        id: "memverifikasi-kepemilikan-tautan-ternyata-mudah",
+        date: "19 Feb 2026",
+        category: "Verification",
+        image: "/assets/rel-me.png",
         link: "artikel-2.html",
         title: {
-            id: "Suka Duka Menjadi Penerjemah Lepas",
-            en: "The Ups and Downs of Freelance Translation",
+            id: "Memverifikasi kepemilikan tautan ternyata mudah",
+            en: "Verifying link ownership is surprisingly easy",
             jp: "フリーランス翻訳者の悲喜こもごも"
         },
         desc: {
-            id: "Berbagi pengalaman saat menggarap proyek lokalisasi di platform Crowdin dan tantangannya.",
-            en: "Sharing experiences while working on localization projects on the Crowdin platform and its challenges.",
+            id: "Cara paling sederhana untuk memverifikasi kepemilikan tautan.",
+            en: "The simplest way to verify link ownership.",
             jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
         }
     },
     {
-        id: "post2",
-        date: "10 Maret 2026",
-        category: "Translation",
-        image: "https://picsum.photos/seed/blog2/600/400",
+        id: "script-skin-tutorial",
+        date: "19 Jan 2026",
+        category: "Tutorial",
+        image: "/assets/script-tutorial.png",
         link: "artikel-2.html",
         title: {
-            id: "Suka Duka Menjadi Penerjemah Lepas",
-            en: "The Ups and Downs of Freelance Translation",
+            id: "Cara membuat skrip untuk dukungan multi-warna pada skinmu sendiri",
+            en: "How to create a script for multi-color support on your own skins",
             jp: "フリーランス翻訳者の悲喜こもごも"
         },
         desc: {
@@ -202,13 +219,13 @@ function renderBlog(lang) {
         const card = document.createElement('article');
         card.className = 'blog-card';
         card.innerHTML = `
-            <img src="${post.image}" alt="Cover Artikel" class="blog-img">
-            <div class="blog-content">
-                <div class="blog-meta">${post.date} • ${post.category}</div>
-                <h3>${post.title[lang]}</h3>
-                <p>${post.desc[lang]}</p>
-                <a href="post.html?id=${post.id}" class="read-more">${readMoreText[lang]}</a>
-            </div>
+    <img src="${post.image}" alt="Cover Artikel" class="blog-img">
+    <div class="blog-content">
+        <div class="blog-meta">${post.date} • ${post.category}</div>
+        <h3>${post.title[lang]}</h3>
+        <p>${post.desc[lang]}</p>
+        <a href="/id/posts/${post.id}.html" class="read-more">${readMoreText[lang]}</a>
+    </div>
         `;
         container.appendChild(card);
     });
@@ -352,4 +369,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 markdownContent.innerHTML = `<p style="text-align:center; color: var(--accent);">Oops! Artikel belum tersedia dalam bahasa ini.</p>`;
             });
     }
+});
+
+/* ========================================= */
+/* AUTO-GENERATE TOC (DAFTAR ISI) ARTIKEL    */
+/* ========================================= */
+document.addEventListener("DOMContentLoaded", () => {
+    const contentArea = document.getElementById('article-content'); 
+    const tocNav = document.getElementById('toc');
+    const tocContainer = document.getElementById('toc-container');
+    
+    if (!contentArea || !tocNav) return;
+
+    const headings = contentArea.querySelectorAll('h2, h3');
+    tocNav.innerHTML = ''; 
+
+    if (headings.length === 0) {
+        if(tocContainer) tocContainer.style.display = 'none';
+        return;
+    } else {
+        if(tocContainer) tocContainer.style.display = 'block';
+    }
+
+    headings.forEach((heading, index) => {
+        if (!heading.id) {
+            let safeId = heading.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+            heading.id = safeId + '-' + index; 
+        }
+
+        const link = document.createElement('a');
+        link.href = '#' + heading.id; 
+        link.textContent = heading.textContent;
+        link.className = 'toc-link toc-' + heading.tagName.toLowerCase();
+        
+        tocNav.appendChild(link);
+    });
 });

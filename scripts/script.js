@@ -128,7 +128,7 @@ const blogPosts = [
         id: "ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir",
         date: "01 April 2026",
         category: "Radio",
-        image: "assets/pexels-adiardizulfansyah-32507863.jpg",
+        image: "/assets/pexels-adiardizulfansyah-32507863.jpg",
         link: "test1",
         title: {
             id: "Ketika era mendengarkan radio perlahan menghilang",
@@ -219,13 +219,13 @@ function renderBlog(lang) {
         const card = document.createElement('article');
         card.className = 'blog-card';
         card.innerHTML = `
-            <img src="${post.image}" alt="Cover Artikel" class="blog-img">
-            <div class="blog-content">
-                <div class="blog-meta">${post.date} • ${post.category}</div>
-                <h3>${post.title[lang]}</h3>
-                <p>${post.desc[lang]}</p>
-                <a href="./posts/ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir.html" class="read-more">${readMoreText[lang]}</a>
-            </div>
+    <img src="${post.image}" alt="Cover Artikel" class="blog-img">
+    <div class="blog-content">
+        <div class="blog-meta">${post.date} • ${post.category}</div>
+        <h3>${post.title[lang]}</h3>
+        <p>${post.desc[lang]}</p>
+        <a href="/id/posts/${post.id}.html" class="read-more">${readMoreText[lang]}</a>
+    </div>
         `;
         container.appendChild(card);
     });
