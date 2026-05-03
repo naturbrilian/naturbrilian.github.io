@@ -131,12 +131,12 @@ const blogPosts = [
         image: "assets/pexels-adiardizulfansyah-32507863.jpg",
         link: "test1",
         title: {
-            id: "Eksperimen Desain Portofolio Baru",
-            en: "As the era of listening to the radio slowly fades away",
+            id: "Ketika era mendengarkan radio perlahan menghilang",
+            en: "New Portfolio Design Experiment",
             jp: "新しいポートフォリオデザインの実験"
         },
         desc: {
-            id: "Catatan singkat tentang bagaimana saya mendesain ulang antarmuka portofolio menggunakan palet warna Catppuccin.",
+            id: "Persaingan dengan layanan musik streaming digital dan nasib kedepannya.",
             en: "A quick note on how I redesigned my portfolio interface using the Catppuccin color palette.",
             jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
         }
@@ -162,7 +162,7 @@ const blogPosts = [
         id: "memverifikasi-kepemilikan-tautan-ternyata-mudah",
         date: "19 Feb 2026",
         category: "Verification",
-        image: "assets/rel-me.png",
+        image: "/assets/rel-me.png",
         link: "artikel-2.html",
         title: {
             id: "Memverifikasi kepemilikan tautan ternyata mudah",
@@ -179,7 +179,7 @@ const blogPosts = [
         id: "script-skin-tutorial",
         date: "19 Jan 2026",
         category: "Tutorial",
-        image: "assets/script-tutorial.png",
+        image: "/assets/script-tutorial.png",
         link: "artikel-2.html",
         title: {
             id: "Cara membuat skrip untuk dukungan multi-warna pada skinmu sendiri",
@@ -224,7 +224,7 @@ function renderBlog(lang) {
                 <div class="blog-meta">${post.date} • ${post.category}</div>
                 <h3>${post.title[lang]}</h3>
                 <p>${post.desc[lang]}</p>
-                <a href="post.html?id=${post.id}" class="read-more">${readMoreText[lang]}</a>
+                <a href="./posts/ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir.html" class="read-more">${readMoreText[lang]}</a>
             </div>
         `;
         container.appendChild(card);
@@ -371,39 +371,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// ==========================================
-// TUKANG SUNTIK TOMBOL COPY DI CODEBLOCK
-// ==========================================
-function addCopyButtons() {
-    // Cari semua kotak kode di dalam artikel
-    const codeBlocks = document.querySelectorAll('#markdown-content pre');
+/* ========================================= */
+/* AUTO-GENERATE TOC (DAFTAR ISI) ARTIKEL    */
+/* ========================================= */
+document.addEventListener("DOMContentLoaded", () => {
+    const contentArea = document.getElementById('article-content'); 
+    const tocNav = document.getElementById('toc');
+    const tocContainer = document.getElementById('toc-container');
+    
+    if (!contentArea || !tocNav) return;
 
-    codeBlocks.forEach((pre) => {
-        // Bikin elemen tombol
-        const button = document.createElement('button');
-        button.className = 'copy-code-btn';
-        button.innerHTML = '📋 Copy'; // Bisa diganti icon SVG kalau lu mau
+    const headings = contentArea.querySelectorAll('h2, h3');
+    tocNav.innerHTML = ''; 
 
-        // Tempelin tombolnya ke dalam kotak <pre>
-        pre.appendChild(button);
+    if (headings.length === 0) {
+        if(tocContainer) tocContainer.style.display = 'none';
+        return;
+    } else {
+        if(tocContainer) tocContainer.style.display = 'block';
+    }
 
-        // Kasih nyawa biar pas diklik dia nge-copy teks
-        button.addEventListener('click', () => {
-            // Ambil teks kodenya doang
-            const codeText = pre.querySelector('code').innerText;
+    headings.forEach((heading, index) => {
+        if (!heading.id) {
+            let safeId = heading.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+            heading.id = safeId + '-' + index; 
+        }
 
-            // Perintah copy ke clipboard bawaan browser
-            navigator.clipboard.writeText(codeText).then(() => {
-                button.innerHTML = '✅ Copied!';
-                button.style.color = '#a6da95'; // Warna hijau Catppuccin
-                
-                // Balikin ke tulisan Copy setelah 2 detik
-                setTimeout(() => {
-                    button.innerHTML = '📋 Copy';
-                    button.style.color = ''; 
-                }, 2000);
-            });
-        });
-    });
-}
+        const link = document.createElement('a');
+        link.href = '#' + heading.id; 
+        link.textContent = heading.textContent;
+        link.className = 'toc-link toc-' + heading.tagName.toLowerCase();
         
+        tocNav.appendChild(link);
+    });
+});

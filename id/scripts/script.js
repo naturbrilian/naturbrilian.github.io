@@ -224,7 +224,7 @@ function renderBlog(lang) {
                 <div class="blog-meta">${post.date} • ${post.category}</div>
                 <h3>${post.title[lang]}</h3>
                 <p>${post.desc[lang]}</p>
-                <a href="post.html?id=${post.id}" class="read-more">${readMoreText[lang]}</a>
+                <a href="./posts/ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir.html" class="read-more">${readMoreText[lang]}</a>
             </div>
         `;
         container.appendChild(card);
@@ -369,4 +369,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 markdownContent.innerHTML = `<p style="text-align:center; color: var(--accent);">Oops! Artikel belum tersedia dalam bahasa ini.</p>`;
             });
     }
+});
+
+/* ========================================= */
+/* AUTO-GENERATE TOC (DAFTAR ISI) ARTIKEL    */
+/* ========================================= */
+document.addEventListener("DOMContentLoaded", () => {
+    const contentArea = document.getElementById('article-content'); 
+    const tocNav = document.getElementById('toc');
+    const tocContainer = document.getElementById('toc-container');
+    
+    if (!contentArea || !tocNav) return;
+
+    const headings = contentArea.querySelectorAll('h2, h3');
+    tocNav.innerHTML = ''; 
+
+    if (headings.length === 0) {
+        if(tocContainer) tocContainer.style.display = 'none';
+        return;
+    } else {
+        if(tocContainer) tocContainer.style.display = 'block';
+    }
+
+    headings.forEach((heading, index) => {
+        if (!heading.id) {
+            let safeId = heading.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+            heading.id = safeId + '-' + index; 
+        }
+
+        const link = document.createElement('a');
+        link.href = '#' + heading.id; 
+        link.textContent = heading.textContent;
+        link.className = 'toc-link toc-' + heading.tagName.toLowerCase();
+        
+        tocNav.appendChild(link);
+    });
 });

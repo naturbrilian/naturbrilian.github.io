@@ -1612,20 +1612,37 @@ body {
 .markdown-body img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Opsional: Biar ujungnya nggak tajem */
-    display: block;
-    margin: 15px 0;
+    border-radius: 4px; /* Curve tipis aja ala markdown */
+    margin: 20px 0;
 }
 
 /* 2. Biar Teks/Judul Panjang Rela Turun Baris (Nggak Bablas ke Kanan) */
-.markdown-body h1, 
-.markdown-body h2, 
+.markdown-body h1 {
+    color: #c6a0f6 !important; /* Judul utama tetep ungu aksen */
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.markdown-body h2 {
+    color: #cad3f5 !important; /* 👇 Sub-judul dibikin putih soft aja biar nggak balapan sama H1 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+ 
 .markdown-body h3, 
-.markdown-body p, 
+.markdown-body p {
+    margin-bottom: 20px;
+    text-align: left; /* Markdown aslinya rata kiri, bukan justify */
+}
+
 .markdown-body a {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 100%;
+    /* 👇 Pakai variabel aksen biar otomatis sama kayak halaman lain */
+    color: var(--accent) !important; 
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px dashed var(--accent);
+    opacity: 0.9; /* Biar kalem dikit di background gelap */
 }
 
 /* 3. Biar Blok Kode (Codeblock) Bisa Di-scroll ke Samping di HP */
@@ -1902,4 +1919,43 @@ body {
         text-align: center;
         padding: 20px 15px 0; /* Kasih bantalan kiri-kanan biar teks nggak nabrak layar HP */
     }
+}
+
+/* ========================================= */
+/* STYLE UNTUK LINK DAFTAR ISI (SIDEBAR)     */
+/* ========================================= */
+#toc a {
+    color: var(--text-muted, #a5adce); /* Warna teks agak redup khas tema lu */
+    text-decoration: none; /* Hilangin garis bawah biru jadul */
+    display: block; /* Biar numpuk rapi ke bawah */
+    margin-bottom: 12px; /* Jarak antar link */
+    font-size: 0.95em;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+#toc a:hover {
+    color: var(--accent, #c6a0f6); /* Berubah warna ungu/aksen lu pas disorot */
+    text-decoration: underline; /* Opsional: Kasih garis bawah pas disorot biar jelas */
+}
+
+/* Biar hirarki H2 dan H3 kelihatan beda (H3 agak menjorok ke dalam) */
+#toc .toc-h2 {
+    font-weight: bold;
+}
+
+#toc .toc-h3 {
+    padding-left: 15px; /* Indentasi ke kanan dikit */
+    font-size: 0.9em;
+    color: var(--text-main, #cad3f5);
+}
+
+.markdown-body ol, 
+.markdown-body ul {
+    padding-left: 25px !important; /* 👇 Biar angkanya nggak "keluar" atau mepet ke garis */
+    margin-bottom: 26px;
+}
+
+.markdown-body li {
+    margin-bottom: 10px; /* Jarak antar poin biar nggak numpuk */
+    line-height: 1.6;
 }
