@@ -132,13 +132,13 @@ const blogPosts = [
         link: "test1",
         title: {
             id: "Ketika era mendengarkan radio perlahan menghilang",
-            en: "New Portfolio Design Experiment",
+            en: "As the era of listening to the radio slowly fades away",
             jp: "新しいポートフォリオデザインの実験"
         },
         desc: {
             id: "Persaingan dengan layanan musik streaming digital dan nasib kedepannya.",
-            en: "A quick note on how I redesigned my portfolio interface using the Catppuccin color palette.",
-            jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
+            en: "Competition with digital music streaming services and their future prospects",
+            jp: "デジタル音楽ストリーミングサービスとの競争と今後の展望。"
         }
     },
     {
