@@ -224,7 +224,7 @@ function renderBlog(lang) {
         <div class="blog-meta">${post.date} • ${post.category}</div>
         <h3>${post.title[lang]}</h3>
         <p>${post.desc[lang]}</p>
-        <a href="/id/posts/${post.id}.html" class="read-more">${readMoreText[lang]}</a>
+        <a href="/posts/${post.id}.html" class="read-more">${readMoreText[lang]}</a>
     </div>
         `;
         container.appendChild(card);
