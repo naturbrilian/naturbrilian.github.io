@@ -191,6 +191,40 @@ const blogPosts = [
             en: "Sharing experiences while working on localization projects on the Crowdin platform and its challenges.",
             jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
         }
+    },
+        {
+        id: "project-gingalibadeidara-works-dihentikan",
+        date: "16 Juli 2025",
+        category: "Blog",
+        image: "/assets/1._orang_redraw.Dd0lWIaX_Z25y9Lp.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Memutuskan untuk menghentikan proyek Gingalibadeidara Works",
+            en: "Decided to stop the Gingalibadeidara Works project",
+            jp: "ギンガリバデイダラ工場プロジェクトを中止することを決定した。"
+        },
+        desc: {
+            id: "Sebuah keputusan pribadi ingin meninggalkan proyek ini",
+            en: "A personal decision to leave this project",
+            jp: "このプロジェクトを離れるという個人的な決断。"
+        }
+    },
+    {
+        id: "mengatasi-file-di-flashdisk-yang-kehidden",
+        date: "27 Juni 2025",
+        category: "Tutorial",
+        image: "/assets/512274831_697499616383376_570875852809618813_n.B6LXF00j_QDKUJ.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Mengatasi masalah file di flashdisk yang ke hidden karena virus",
+            en: "Overcoming the problem of files on a flash disk being hidden due to a virus",
+            jp: "ウイルスによってフラッシュディスク上のファイルが隠されてしまう問題を解決する"
+        },
+        desc: {
+            id: "Tutorial sederhana dan cara lama mengatasi sebuah flashdisk yang dihidden oleh virus pintasan, tanpa menggunakan aplikasi apapun",
+            en: "Simple tutorial and how to fix a flash disk hidden by a shortcut virus, without using any application.",
+            jp: "ショートカットウイルスによって隠されたフラッシュディスクを、アプリケーションを使わずに修復する簡単なチュートリアルです。"
+        }
     }
 
     
