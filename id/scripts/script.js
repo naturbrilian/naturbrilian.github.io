@@ -225,6 +225,74 @@ const blogPosts = [
             en: "Simple tutorial and how to fix a flash disk hidden by a shortcut virus, without using any application.",
             jp: "ショートカットウイルスによって隠されたフラッシュディスクを、アプリケーションを使わずに修復する簡単なチュートリアルです。"
         }
+    },
+    {
+        id: "migrasi-tidak-tahu",
+        date: "19 April 2025",
+        category: "Blog",
+        image: "/assets/632824.BwLPPZNj_8FG6J.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Migrasi lagi? tidak tahu",
+            en: "Migration again? don't know",
+            jp: "また移住？わからない"
+        },
+        desc: {
+            id: "Ingin stay di platform gratisan, atau membuat situs web sendiri?",
+            en: "Want to stay on a free platform, or create your own website?",
+            jp: "無料プラットフォームを使い続けたいですか、それとも独自のウェブサイトを作成したいですか？"
+        }
+    },
+    {
+        id: "masalah-heatsink-laptop-fitur-hyper-v",
+        date: "24 Januari 2025",
+        category: "Blog",
+        image: "/assets/heatsink.fnBNMQVo_ZwXnCO.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Masalah heatsink laptop & Fitur Hyper-V",
+            en: "Laptop heatsink issues & Hyper-V features",
+            jp: "ノートパソコンのヒートシンクの問題とHyper-Vの機能"
+        },
+        desc: {
+            id: "Kenapa?",
+            en: "Why?",
+            jp: "なぜ？"
+        }
+    },
+    {
+        id: "postingan-di-awal-2025",
+        date: "22 Januari 2025",
+        category: "Blog",
+        image: "/assets/hanamizuki.BjT6Yn0l_ZOSQBq.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Postingan di awal 2025",
+            en: "Posts in early 2025",
+            jp: "2025年初頭の投稿"
+        },
+        desc: {
+            id: "Rekomendasi anime di tahun 2025 dan lainnya",
+            en: "Anime recommendations in 2025 and more",
+            jp: "2025年のおすすめアニメなど"
+        }
+    },
+    {
+        id: "postingan-akhir",
+        date: "24 Desember 2024",
+        category: "Blog",
+        image: "/assets/vector-2.Bn1M0fK3_Z2kKx87.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Postingan terakhir di tahun ini",
+            en: "Last post on this year",
+            jp: "今年最後の投稿"
+        },
+        desc: {
+            id: "Masa depan situs web, dan domain yang makin kedepannya harganya naik",
+            en: "The future of websites, and domains, will continue to rise in price.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
     }
 
     
