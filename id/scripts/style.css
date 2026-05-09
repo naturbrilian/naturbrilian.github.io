@@ -1959,3 +1959,40 @@ body {
     margin-bottom: 10px; /* Jarak antar poin biar nggak numpuk */
     line-height: 1.6;
 }
+/* Styling khusus halaman detail karya */
+.detail-item {
+    margin-bottom: 2rem; 
+    color: var(--text-main); 
+    border: none !important; /* Biar aman gak ada border */
+}
+
+.detail-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem; 
+    text-align: left; 
+}
+
+.detail-content {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.detail-img {
+    max-width: 300px; 
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+.detail-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; 
+    text-align: left; 
+}
+
+.detail-text p {
+    margin: 0;
+    font-size: 1rem;
+}
