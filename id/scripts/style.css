@@ -638,13 +638,13 @@ footer {
 .social-icons {
     display: flex !important;
     flex-wrap: wrap !important;
-    justify-content: center !important; /* Sisa ikon di baris bawah otomatis ke tengah */
+    justify-content: center !important; 
     gap: 15px !important;
     
-    /* INI KUNCINYA: Lebar maksimal dikunci pas untuk 5 ikon */
-    max-width: 266px !important; 
+    /* Gedein dikit biar ikon ke-5 bisa masuk! */
+    max-width: 290px !important; 
     
-    margin: 20px auto !important; /* Posisikan ke tengah layar */
+    margin: 20px auto !important; 
     padding: 0 !important;
 }
 
