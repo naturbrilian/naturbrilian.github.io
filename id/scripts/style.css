@@ -2007,3 +2007,23 @@ body {
     margin: 0;
     font-size: 1rem;
 }
+/* ========================================= */
+/* FIX HALAMAN DETAIL KARYA BUAT HP          */
+/* ========================================= */
+@media (max-width: 768px) {
+    .detail-content {
+        flex-direction: column !important; /* Paksa gambar di atas, teks di bawah */
+        align-items: center !important; 
+    }
+    
+    .detail-img {
+        width: 100% !important; /* Biar gambar menyesuaikan lebar layar HP */
+        max-width: 100% !important;
+        margin-bottom: 20px !important; /* Kasih jarak napas antara gambar dan teks */
+    }
+    
+    .detail-text {
+        width: 100% !important; /* Biar teksnya lega ngisi full lebar layar */
+        text-align: left !important; /* Teks tetep rapi rata kiri */
+    }
+}
