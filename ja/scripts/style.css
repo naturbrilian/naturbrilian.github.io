@@ -637,13 +637,15 @@ footer {
 
 .social-icons {
     display: flex !important;
-    flex-direction: row !important; /* Paksa baris ke samping, jangan ke bawah! */
-    justify-content: center !important;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 15px; 
-    margin: 20px auto 0; /* Kasih jarak atas dikit biar gak nempel teks */
-    padding: 0;
+    flex-wrap: wrap !important;
+    justify-content: center !important; /* Sisa ikon di baris bawah otomatis ke tengah */
+    gap: 15px !important;
+    
+    /* INI KUNCINYA: Lebar maksimal dikunci pas untuk 5 ikon */
+    max-width: 266px !important; 
+    
+    margin: 20px auto !important; /* Posisikan ke tengah layar */
+    padding: 0 !important;
 }
 
 .social-icons a {
@@ -667,9 +669,9 @@ footer {
     transform: translateY(-3px); /* Ikonnya loncat dikit pas disorot */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .social-icons {
-        max-width: 280px; /* Sabuk pengaman grid 4x4 */
+        max-width: 213px !important; /* Mengunci jadi 4 per baris */
     }
 }
 
@@ -1796,7 +1798,7 @@ body {
 /* ========================================= */
 
 .footer-split {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: flex-start; /* 👇 UBAH JADI INI: Biar tulisan atasnya sejajar lurus */
     width: 100%;  
@@ -1820,10 +1822,11 @@ body {
 
 /* Penempatan Gambar 88x31 */
 .badges-88x31 {
-    display: flex;
+    display: grid;
     justify-content: flex-end;
+    grid-template-columns: repeat(5, 88px);
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1px;
     margin-top: 10px;
 }
 
@@ -1834,6 +1837,8 @@ body {
     border-radius: 2px;
     transition: transform 0.2s ease;
 }
+
+
 
 /* ========================================= */
 /* MODE HP: BALIKIN SEMUA KE TENGAH          */
@@ -1878,8 +1883,8 @@ body {
     width: 100%;
     display: block; /* KUNCI: Biar garis batasnya ngebentang full dari kiri ke kanan! */
     margin-top: 0px;
-    padding-top: 15px; 
-    line-height: 1.6; /* KUNCI: Biar kalau teks kepanjangan dan turun baris, nggak nempel-nempel */
+    padding-top: 0px; 
+    line-height: 1 /* KUNCI: Biar kalau teks kepanjangan dan turun baris, nggak nempel-nempel */
     color: var(--text-muted, #a5adce); 
 }
 
@@ -1958,4 +1963,41 @@ body {
 .markdown-body li {
     margin-bottom: 10px; /* Jarak antar poin biar nggak numpuk */
     line-height: 1.6;
+}
+/* Styling khusus halaman detail karya */
+.detail-item {
+    margin-bottom: 2rem; 
+    color: var(--text-main); 
+    border: none !important; /* Biar aman gak ada border */
+}
+
+.detail-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem; 
+    text-align: left; 
+}
+
+.detail-content {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.detail-img {
+    max-width: 300px; 
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+.detail-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; 
+    text-align: left; 
+}
+
+.detail-text p {
+    margin: 0;
+    font-size: 1rem;
 }
