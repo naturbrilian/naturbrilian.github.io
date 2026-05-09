@@ -1838,6 +1838,12 @@ body {
     transition: transform 0.2s ease;
 }
 
+@media (max-width: 500px) {
+    .badges-88x31 {
+        grid-template-columns: repeat(3, 88px); /* Maksimal 3 badge ke samping di HP */
+    }
+}
+
 
 
 /* ========================================= */
