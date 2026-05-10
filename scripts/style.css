@@ -2027,3 +2027,28 @@ body {
         text-align: left !important; /* Teks tetep rapi rata kiri */
     }
 }
+
+/* ========================================= */
+/* FIX BULLET LIST LDR (JAUH-JAUHAN)         */
+/* ========================================= */
+
+.markdown-body ul, 
+.markdown-body ol,
+.post-body ul,
+.post-body ol {
+    text-align: left !important; /* Paksa teks balik ke kiri nemenin titik */
+    padding-left: 20px !important; /* Jarak aman biar titik gak nabrak pinggir layar */
+}
+
+.markdown-body li,
+.post-body li {
+    text-align: left !important; 
+    list-style-position: outside !important; /* Biar titik/angkanya rapi di luar garis teks */
+}
+
+/* Opsional: Kalau lu mau judul "Me" ikutan rata kiri kayak judul "Aku" di SS kedua */
+.markdown-body h1, 
+.markdown-body h2, 
+.markdown-body h3 {
+    text-align: left !important;
+}
