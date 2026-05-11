@@ -432,7 +432,7 @@ nav {
 /* --- PRIVACY POLICY SECTION --- */
 /* --- PRIVACY POLICY SECTION --- */
 .privacy-container {
-    max-width: 1087px; /* Lebar dikecilkan agar pas dan nyaman dibaca (mirip lebar buku/artikel) */
+    max-width: 1200px; /* Lebar dikecilkan agar pas dan nyaman dibaca (mirip lebar buku/artikel) */
     margin: 0 auto;
     padding: 60px 20px;
 }
@@ -2051,4 +2051,32 @@ body {
 .markdown-body h2, 
 .markdown-body h3 {
     text-align: left !important;
+}
+
+#statuscafe {
+    padding: .0em;
+    background-color: var(--bg-base);
+    border: 0px solid midnightblue;
+    text-align: left !important;
+}
+#statuscafe-username {
+    margin-bottom: .0em;
+    text-align: left !important;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    text-align: left !important;
+}
+
+#statuscafe a {
+    color: var(--accent,); /* Pakai warna ungu/aksen tema lu */
+    text-decoration: none; /* Ngilangin garis bawah jadul */
+    font-weight: bold; /* Opsional: Biar link-nya agak tebel */
+    transition: color 0.3s ease; /* Biar efek transisinya mulus */
+}
+
+/* 2. Warna Link Pas Disorot Mouse (Hover) */
+#statuscafe a:hover {
+    color: var(--accent,); /* Warna pas disorot */
+    text-decoration: underline; /* Munculin garis bawah pas disorot biar jelas itu link */
 }

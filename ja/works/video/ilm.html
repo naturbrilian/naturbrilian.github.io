@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#CA9EE6">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="me" href="https://mastodon.social/@naturbrilian"/a>
+    <link rel="me" href="https://sakurajima.moe/@naturbrilian"/a>
     <link rel="me" href="https://sakurajima.social/@naturbrilian"/a>
+    <link rel="me" href="https://threads.net/@naturbrilian" /a>
     <link rel="me" href="https://geoplanetary.net/@naturbrilian"/a>
      <link rel="icon" href="/assets/icon.png" type="image/x-icon" />
      <meta name="description" content="Natur Brilian's Website | Blog, Archive, My Activity Gallery and Etc">
@@ -16,58 +17,59 @@
 <body>
 
     <header>
-        <nav>
-            <a href="/ja/index.html" class="logo">Natur Brilian</a>
-            <div class="nav-right">
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="/ja/about.html" data-i18n="nav_karya">概要</a></li>
+    <nav>
+        <a href="/ja/index.html" class="logo">Natur Brilian</a>
+        
+        <div class="nav-right">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/ja/about.html" data-i18n="nav_karya">概要</a></li>
                     <li><a href="/ja/news.html" data-i18n="nav_news">ニュース</a></li>
                     <li><a href="/ja/cv.html" data-i18n="nav_cv">履歴書</a></li>
                     <li><a href="/ja/portofolio.html" data-i18n="nav_porto">ポートフォリオ</a></li>
                     <li><a href="/ja/gallery.html" data-i18n="nav_gallery">ギャラリー</a></li>
                     <li><a href="/ja/blog.html" data-i18n="nav_blog">ブログ</a></li>
-                    <li><a href="/ja/index.html" data-i18n="nav_kontak">お問い合わせ</a></li>
-                </ul>
+                    <li><a href="/ja/index.html#kontak" data-i18n="nav_kontak">お問い合わせ</a></li>
 
-                <div class="nav-right">
-                    <ul class="nav-links" id="navLinks">
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn" data-i18n="nav_etc">など <i class="arrow down"></i></a>
+                    <ul class="dropdown-content">
 
-    <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn" data-i18n="nav_etc">など<i class="arrow down"></i></a>
-        <ul class="dropdown-content">
+                        <li class="dropdown">
+                            <a href="/ja/now.html">Now</a>
+                            <a href="/ja/status.html">地位</a>
+                        </li>
 
-            <li class="sub-dropdown">
-                <a href="#">コレクション <i class="arrow right"></i></a>
-                <ul class="sub-dropdown-content">
-                    <li><a href="/ja/bookmark.html">ブックマーク</a></li>
-                    <li><a href="https://naturbrilian.great-site.net/forum">フォーラム</a></li>
-                    <li><a href="/ja/screenshoot.html">スクリーンショット</a></li>
-                    <li><a href="/ja/">カスタムテーマ</a></li>
-                    <li><a href="/ja/rant.html">愚痴</a></li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>   
-                </div>
+                        <li class="sub-dropdown">
+                            <a href="#">コレクション <i class="arrow right"></i></a>
+                            <ul class="sub-dropdown-content">
+                                <li><a href="/ja/bookmark.html">ブックマーク</a></li>
+                                <li><a href="https://naturbrilian.great-site.net/forum">フォーラム</a></li>
+                                <li><a href="/ja/screenshoot.html">スクリーンショットr</a></li>
+                                <li><a href="/ja/themes.html">カスタムテーマ</a></li>
+                                <li><a href="/ja/rant.html">愚痴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-                <div class="controls">
-                    <select class="lang-switch" id="languageSelect">
-                        <option value="id">ID</option>
-                        <option value="en">EN</option>
-                        <option value="jp">JP</option>
-                    </select>
-                    <button class="theme-switch" id="themeBtn" aria-label="Ganti Tema">
-                        <svg id="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-                        <svg id="sun-icon" style="display: none;" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                    </button>
-                    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
-                        <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-                    </button>
-                </div>
+            <div class="controls">
+                <select class="lang-switch" id="languageSelect">
+                    <option value="id">ID</option>
+                    <option value="en">EN</option>
+                    <option value="jp">JP</option>
+                </select>
+                <button class="theme-switch" id="themeBtn" aria-label="Ganti Tema">
+                    <svg id="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    <svg id="sun-icon" style="display: none;" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                </button>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <main class="page-container" style="margin-top: 40px; margin-bottom: 80px;">
     <div class="page-header" style="text-align: center; margin-bottom: 50px;">
