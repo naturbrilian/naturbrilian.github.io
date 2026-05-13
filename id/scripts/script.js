@@ -278,7 +278,7 @@ const blogPosts = [
         }
     },
     {
-        id: "postingan-akhir",
+        id: "postingan-terakhir-di-tahun-ini",
         date: "24 Desember 2024",
         category: "Blog",
         image: "/assets/vector-2.Bn1M0fK3_Z2kKx87.webp",

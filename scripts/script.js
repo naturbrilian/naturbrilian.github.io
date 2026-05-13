@@ -191,7 +191,160 @@ const blogPosts = [
             en: "Sharing experiences while working on localization projects on the Crowdin platform and its challenges.",
             jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
         }
-    }
+    },
+    {
+        id: "at-the-end-of-the-year",
+        date: "15 Dec 2025",
+        category: "Refreshing",
+        image: "/assets/langit.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Pada akhir tahun",
+            en: "At the end of the year",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Cerita tentang liburanku beberapa pekan lalu di Surabaya",
+            en: "The story about my holiday a few weeks ago in Surabaya",
+            jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
+        }
+    },
+    {
+        id: "what-are-the-characteristics-of-a-scammer",
+        date: "30 September 2025",
+        category: "Reminder",
+        image: "/assets/serupa-tapi-tak-sama.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Pada akhir tahun",
+            en: "What are the characteristics of a scammer?",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Cerita tentang liburanku beberapa pekan lalu di Surabaya",
+            en: "This post only available on English language, and this is backup from Deviantart post",
+            jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
+        }
+    },
+    {
+        id: "lastfm-to-sbky",
+        date: "30 August 2025",
+        category: "Tutorial",
+        image: "/assets/aimp4-and-cmd-show.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Menggunakan chatGPT untuk membuat skrip sederhana",
+            en: "Using chatGPT to create simple code",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Ini adalah cara sederhana yang kugunakan untuk meminta AI ChatGPT membuat kode sederhana untuk mengirimkan scrobble Last.fm ke Bluesky.",
+            en: "This is simple way i prompt AI ChatGPT to create simple code for posting Last.fm tracks to Bluesky.",
+            jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
+        }
+    },
+    {
+        id: "migrate-is-done",
+        date: "07 August 2025",
+        category: "Blog",
+        image: "/assets/wixsite-web.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Proses migrasi sudah selesai",
+            en: "The migration process is done",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Pindah ke halaman web baru",
+            en: "Move to new homepage.",
+            jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
+        }
+    },
+    {
+        id: "this-blog-is-not-completed-dead",
+        date: "10 February 2025",
+        category: "Blog",
+        image: "/assets/20250210055150.jpg",
+        link: "artikel-2.html",
+        title: {
+            id: "Proses migrasi sudah selesai",
+            en: "This blog is not totally dead",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Pindah ke halaman web baru",
+            en: "The short announcement from english blog version",
+            jp: "Crowdinプラットフォームでのローカライズプロジェクトの経験とその課題について共有します。"
+        }
+    },
+     {
+        id: "postingan-terakhir-di-tahun-ini",
+        date: "24 December 2024",
+        category: "Blog",
+        image: "/assets/vector-2.Bn1M0fK3_Z2kKx87.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Postingan terakhir di tahun ini",
+            en: "Last post in this year",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Masa depan situs web, dan domain yang makin kedepannya harganya naik",
+            en: "The future of websites, and domains, will continue to rise in price.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "retiring-from-priconne",
+        date: "12 December 2024",
+        category: "Blog",
+        image: "/assets/image-10.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Memutuskan untuk pensi dari gim favorit",
+            en: "Deciding to retiring from my favourite game",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Meninggalkannya, aku sangat lega dengan gim bodoh ini setelah beberapa tahun tidak bermain",
+            en: "Leaving it, I was so relieved with this stupid game after a few years of not playing it.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "tutorial-tema-google-chrome",
+        date: "12 November 2024",
+        category: "Tutorial",
+        image: "/assets/chrome-themes-tutor.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Tutorial Tema Google Chrome",
+            en: "Google Chrome Themes Tutorial",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Panduan cara membuat tema Google Chromemu sendiri",
+            en: "Tutorial on how to create a your own Google Chrome theme.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "free-subdomain-from-fansub-id",
+        date: "18 November 2023",
+        category: "Domain",
+        image: "/assets/fansub-id-preview.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Bingung mau pasang domain di web proyek terjemahan, namun terkendala biaya? FansubID memberikan sub-domain gratis buat kamu",
+            en: "Don't know if you want to put a domain on your translation project, but you can't afford it? FansubID provides free sub-domains for you",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Cara mendapatkan domain gratisan untuk proyek terjemahanmu atau terjemahan penggemar",
+            en: "How to get a free domain for translation projects or fan translations",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
 
     
 ];
