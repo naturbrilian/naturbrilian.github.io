@@ -247,7 +247,7 @@ const blogPosts = [
         id: "migrate-is-done",
         date: "07 August 2025",
         category: "Blog",
-        image: "/assets/wixsite-web.png",
+        image: "/assets/wixsite-web.webp",
         link: "artikel-2.html",
         title: {
             id: "Proses migrasi sudah selesai",

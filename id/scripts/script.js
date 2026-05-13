@@ -124,6 +124,23 @@ window.onload = changeLanguage;
 
 // --- DATABASE BLOG MULTIBAHASA ---
 const blogPosts = [
+    {
+        id: "styx-helix-x-metamorphose",
+        date: "14 Mei 2026",
+        category: "Jpop",
+        image: "/assets/styx-helix-x-metamophorse.webp",
+        link: "test1",
+        title: {
+            id: "Metamorphose dan STYX HELIX, apa hubungannya dengan kedua lagu ini?",
+            en: "Metamorphose and STYX HELIX, what is the connection between these two songs?",
+            jp: "新しいポートフォリオデザインの実験"
+        },
+        desc: {
+            id: "Pembahasan yang cukup menarik buatku, untuk dibahas dari kedua fandom berbeda yaitu Tohou dan Re:Zero.",
+            en: "Quite an interesting discussion for me, to discuss from two different fandoms, namely Tohou and Re:Zero",
+            jp: "Catppuccinカラーパレットを使用してポートフォリオのインターフェースを再設計した方法についての短いメモ。"
+        }
+    },
         {
         id: "ketika-sebuah-era-mendengarkan-radio-perlahan-berakhir",
         date: "01 April 2026",
