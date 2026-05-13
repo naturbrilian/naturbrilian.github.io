@@ -298,7 +298,7 @@ const blogPosts = [
         id: "retiring-from-priconne",
         date: "12 December 2024",
         category: "Blog",
-        image: "/assets/image-10.png",
+        image: "/assets/image-10.webp",
         link: "artikel-2.html",
         title: {
             id: "Memutuskan untuk pensi dari gim favorit",
