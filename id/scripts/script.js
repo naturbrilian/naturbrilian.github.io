@@ -310,7 +310,58 @@ const blogPosts = [
             en: "The future of websites, and domains, will continue to rise in price.",
             jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
         }
-    }
+    },
+    {
+        id: "retiring-from-priconne",
+        date: "12 December 2024",
+        category: "Blog",
+        image: "/assets/image-10.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Memutuskan untuk pensi dari gim favorit",
+            en: "Deciding to retiring from my favourite game",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Meninggalkannya, aku sangat lega dengan gim bodoh ini setelah beberapa tahun tidak bermain",
+            en: "Leaving it, I was so relieved with this stupid game after a few years of not playing it.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        },
+    },
+    {
+        id: "tutorial-tema-google-chrome",
+        date: "12 November 2024",
+        category: "Tutorial",
+        image: "/assets/chrome-themes-tutor.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Tutorial Tema Google Chrome",
+            en: "Google Chrome Themes Tutorial",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Panduan cara membuat tema Google Chromemu sendiri",
+            en: "Tutorial on how to create a your own Google Chrome theme.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "ada-rencana-mau-stay-di-blogspot-atau-digitalpress",
+        date: "04 November 2024",
+        category: "Blog",
+        image: "/assets/shiroko-sunaokami.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Ada rencana mau stay di Blogspot atau pindah ke DigitalPress?",
+            en: "Google Chrome Themes Tutorial",
+            jp: "フリーランス翻訳者の悲喜こもごも"
+        },
+        desc: {
+            id: "Rencana pindah ke digitalpress? kupikir jadikan backup aja",
+            en: "Tutorial on how to create a your own Google Chrome theme.",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
 
     
 ];
@@ -524,3 +575,163 @@ document.addEventListener("DOMContentLoaded", () => {
         tocNav.appendChild(link);
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById('audio-player');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const progressBar = document.getElementById('progress-bar');
+    const trackTitle = document.getElementById('track-title');
+    const trackArtist = document.getElementById('track-artist');
+    const playlistList = document.getElementById('playlist-list');
+    const currentTimeEl = document.getElementById('current-time');
+    const durationEl = document.getElementById('duration');
+
+    // ==========================================
+    // DAFTAR LAGU
+    // ==========================================
+    const songs = [
+        {
+            title: "MAGIC BPM",
+            artist: "EasyPop",
+            src: "E:/Lagu/A/EasyPop/ベリーイージー2/11 MAGIC BPM.flac" 
+        },
+        {
+            title: "だから言ったでしょ?",
+            artist: "EasyPop",
+            src: "E:/Lagu/A/EasyPop/ベリーイージー2/10 I've Told You, Right_.flac" 
+        },
+        {
+            title: "Aishiteru",
+            artist: "Kourin",
+            src: "path/ke/lagumu3.mp3"
+        }
+    ];
+    // ==========================================
+
+    let currentSongIndex = 0;
+    let isPlaying = false;
+
+    if (!audio || !playlistList) return; // Mencegah error jika elemen tidak ditemukan
+
+    function loadSong(index) {
+        const song = songs[index];
+        trackTitle.textContent = song.title;
+        trackArtist.textContent = song.artist;
+        audio.src = song.src;
+        updatePlaylistActiveState();
+    }
+
+    function renderPlaylist() {
+        playlistList.innerHTML = ''; 
+        songs.forEach((song, index) => {
+            const li = document.createElement('li');
+            li.innerHTML = `<span class="song-title">${song.title}</span><span class="song-artist">${song.artist}</span>`;
+            
+            li.addEventListener('click', () => {
+                currentSongIndex = index;
+                loadSong(currentSongIndex);
+                playSong();
+            });
+            
+            playlistList.appendChild(li);
+        });
+    }
+
+    function updatePlaylistActiveState() {
+        const items = playlistList.querySelectorAll('li');
+        items.forEach((item, index) => {
+            if (index === currentSongIndex) {
+                item.classList.add('active');
+            } else {
+                item.classList.remove('active');
+            }
+        });
+    }
+
+    function playSong() {
+        isPlaying = true;
+        playPauseBtn.textContent = '⏸ Pause';
+        audio.play();
+    }
+
+    function pauseSong() {
+        isPlaying = false;
+        playPauseBtn.textContent = '▶ Play';
+        audio.pause();
+    }
+
+    playPauseBtn.addEventListener('click', () => {
+        if (isPlaying) pauseSong();
+        else playSong();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+        loadSong(currentSongIndex);
+        playSong();
+    });
+
+    nextBtn.addEventListener('click', () => {
+        currentSongIndex = (currentSongIndex + 1) % songs.length;
+        loadSong(currentSongIndex);
+        playSong();
+    });
+
+    function formatTime(seconds) {
+        if (isNaN(seconds)) return "0:00";
+        const min = Math.floor(seconds / 60);
+        const sec = Math.floor(seconds % 60);
+        return `${min}:${sec < 10 ? '0' : ''}${sec}`;
+    }
+
+    audio.addEventListener('timeupdate', () => {
+        if(audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressBar.value = progress;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+            durationEl.textContent = formatTime(audio.duration);
+        }
+    });
+
+    progressBar.addEventListener('input', () => {
+        const seekTime = (progressBar.value / 100) * audio.duration;
+        audio.currentTime = seekTime;
+    });
+
+    audio.addEventListener('ended', () => {
+        nextBtn.click();
+    });
+
+    // Inisialisasi
+    renderPlaylist();
+    loadSong(currentSongIndex);
+});
+
+function startClock() {
+    const timeEl = document.getElementById('clock-time');
+    const secondsEl = document.getElementById('clock-seconds');
+    if (!timeEl || !secondsEl) return;
+
+    // Jalankan sekali di awal biar gak nunggu 1 detik baru muncul angkanya
+    const updateTime = () => {
+        const now = new Date();
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
+
+        hours = hours < 10 ? '0' + hours : hours;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        timeEl.textContent = `${hours}:${minutes}`;
+        secondsEl.textContent = seconds;
+    };
+
+    updateTime(); // Eksekusi langsung
+    setInterval(updateTime, 1000); // Jalankan loop detikan
+}
+
+// Langsung panggil fungsinya di sini secara terbuka
+startClock();

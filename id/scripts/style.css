@@ -891,7 +891,7 @@ footer a:hover { color: var(--accent); }
 /* --- ABOUT SECTION (TENTANG SAYA) --- */
 }
 /* --- LAYOUT ABOUT ALA AL-FOLIO --- */
-/* --- LAYOUT ABOUT ALA AL-FOLIO --- */
+
 .about-content {
     max-width: 800px; /* Lebar dibatasi agar enak dibaca seperti artikel */
     margin: 40px auto;
@@ -2080,4 +2080,444 @@ body {
 #statuscafe a:hover {
     color: var(--accent,); /* Warna pas disorot */
     text-decoration: underline; /* Munculin garis bawah pas disorot biar jelas itu link */
+}
+
+/* ========================================= */
+/* BENTO LAYOUT (4-KOLOM ALA BENTO.ME)       */
+/* ========================================= */
+.bento-container {
+    display: grid;
+    /* RAHASIANYA DI SINI: Bagi layar jadi 6 potongan kecil */
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px;
+    max-width: 1200px; 
+    width: 100%;
+    margin: 40px auto 80px auto;
+    padding: 0 20px;
+}
+
+.bento-box {
+    background-color: var(--bg-surface); 
+    border: 1px solid var(--border-col);
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.bento-box:hover {
+    transform: translateY(-2px);
+}
+
+.bento-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--text-main);
+    font-size: 1.2rem;
+}
+
+/* Mengatur gaya link dalam kotak */
+.bento-box a { 
+    color: var(--accent); 
+    text-decoration: none; 
+}
+.bento-box a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================= */
+/* PENGATURAN SPAN TIAP KOTAK                */
+/* ========================================= */
+
+.box-profile { 
+    grid-column: span 2; /* 33% Layar */
+    justify-content: flex-start; 
+}
+
+.box-info { 
+    grid-column: span 2; /* 33% Layar */
+    justify-content: flex-start; 
+}
+
+.box-player {
+    grid-column: span 2; /* Makan 2 kolom di Kiri Tengah */
+    grid-row: span 2;    /* Memanjang 2 baris ke bawah */
+    background-color: var(--bg-card); /* Warna beda dikit biar menonjol */
+    justify-content: flex-start; 
+}
+
+/* Kotak pembungkus luar (Ukurannya otomatis sama dengan kotak Links) */
+.box-combined-small {
+    grid-column: span 2; /* Menguasai 2 kolom agar lurus sejajar dengan Links */
+    display: flex !important;
+    flex-direction: row !important; /* Berjejer menyamping */
+    gap: 15px;
+    padding: 0 !important; /* Padding dikosongkan agar sub-kotak bisa mekar */
+    background: transparent !important; /* Transparan agar tidak menumpuk warna */
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Desain untuk masing-masing kotak kecil di dalam flex */
+.small-item-inner {
+    flex: 1; /* Membagi ukuran 50:50 secara adil */
+    background-color: var(--bg-surface); 
+    border: 1px solid var(--border-col);
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.small-item-inner:hover {
+    transform: translateY(-2px);
+}   
+
+/* Gaya untuk masing-masing kotak kecil di dalamnya */
+.bento-sub-box {
+    flex: 1; /* Membagi ukuran 50:50 yang adil */
+    background-color: var(--bg-surface); 
+    border: 1px solid var(--border-col);
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.bento-sub-box:hover {
+    transform: translateY(-2px);
+}
+
+.box-social { 
+    grid-column: span 2; /* Makan 2 kolom di Kanan Tengah */
+    justify-content: flex-start;
+    align-self: start;   /* BIAR KOTAKNYA MUNGIL / GAK MELAR */
+}
+
+.box-watching {
+    grid-column: span 2; /* Makan 2 kolom di Kanan Bawah */
+    justify-content: flex-start;
+    align-self: start;   /* BIAR KOTAKNYA MUNGIL / GAK MELAR */
+}
+
+/* Responsif HP */
+/* ========================================= */
+/* TARUH INI DI BARIS PALING BAWAH STYLE.CSS */
+/* ========================================= */
+
+@media screen and (max-width: 992px) {
+    .bento-container { 
+        grid-template-columns: 1fr !important; /* Harga mati jadi 1 baris ke bawah */
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+    
+    /* Memaksa semua kotak, termasuk kotak kecilmu, untuk mekar 100% di HP */
+    .box-profile, 
+    .box-info, 
+    .box-player, 
+    .box-social, 
+    .box-watching, 
+    .box-small-1, 
+    .box-small-2 {
+        grid-column: span 1 !important; 
+        grid-row: auto !important;
+        align-self: stretch !important;
+    }
+}
+
+
+/* ========================================= */
+/* MUSIC PLAYER CONTROLS                     */
+/* ========================================= */
+.player-inner { width: 100%; }
+
+.track-info h2 { 
+    margin: 0 0 5px; 
+    font-size: 22px; 
+    color: var(--text-main); 
+}
+.track-info p { 
+    margin: 0 0 20px; 
+    color: var(--text-muted); 
+    font-size: 14px; 
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+#progress-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    cursor: pointer;
+    accent-color: var(--accent); 
+}
+
+.player-controls { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.player-controls button {
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.player-controls button:hover { background-color: var(--tag-bg); }
+
+#play-pause-btn {
+    background-color: var(--accent);
+    color: var(--bg-base);
+    font-weight: bold;
+}
+
+#play-pause-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--accent-hover);
+}
+
+
+/* ========================================= */
+/* PLAYLIST SECTION                          */
+/* ========================================= */
+.playlist-section {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    border-top: 1px solid var(--border-col);
+    padding-top: 15px;
+}
+
+.playlist-section h3 {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+/* Mematikan titik (bullet) bawaan browser */
+.playlist-section ul { 
+    list-style: none !important; 
+    padding: 0 !important; 
+    margin: 0; 
+}
+
+/* Memisah tulisan judul dan artis atas-bawah */
+.playlist-section li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Ini kuncinya biar gak nempel nyamping */
+    transition: background 0.2s;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.playlist-section li:hover { background-color: var(--tag-bg); }
+.playlist-section li.active { background-color: var(--border-col); }
+.playlist-section li.active .song-title { color: var(--accent); }
+
+.song-title { font-weight: bold; font-size: 14px; color: var(--text-main); }
+.song-artist { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+/* Kustomisasi Scrollbar Playlist biar rapi */
+.playlist-section::-webkit-scrollbar { width: 6px; }
+.playlist-section::-webkit-scrollbar-thumb { background: var(--border-col); border-radius: 3px; }
+.playlist-section::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+.box-social { 
+    justify-content: flex-start;
+    align-self: start; /* RAHASIANYA DI SINI: Mencegah kotak melar ngikutin tinggi Music Player */
+}
+
+/* Biar warna teks dan tanda | nya seragam dan rapi */
+.links-inline {
+    color: var(--text-muted); /* Warna tanda | agak redup */
+    font-size: 1rem;
+}
+
+.links-inline a {
+    color: var(--accent); /* Warna link ungu Catppuccin */
+    text-decoration: none;
+    margin: 0 5px; /* Kasih jarak kiri-kanan dikit dari tanda | */
+}
+
+.links-inline a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================= */
+/* KOTAK NOW WATCHING                        */
+/* ========================================= */
+.box-watching {
+    justify-content: flex-start;
+}
+
+.watching-header {
+    margin-bottom: 15px;
+}
+
+.watching-badge {
+    background-color: var(--tag-bg);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.watching-content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Ukuran Poster Anime/Film */
+.watching-poster {
+    width: 70px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover; /* Biar gambar gak gepeng */
+    border: 1px solid var(--border-col);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.watching-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.watching-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: var(--text-main);
+    line-height: 1.3;
+}
+
+.watching-info p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+#digital-clock {
+    font-size: 2rem; /* Ukuran teks jam yang besar dan tegas */
+    font-weight: bold;
+    color: var(--accent); /* Menggunakan warna ungu aksen Catppuccin-mu */
+    margin: 5px 0 10px 0;
+    font-family: monospace; /* Biar angka jamnya stabil dan gak geser-geser pas detiknya berubah */
+    letter-spacing: 1px;
+}
+
+/* Mengembalikan isi kotak agar seimbang di tengah atas-bawah */
+.box-info {
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
+
+.box-info h3 {
+    margin-bottom: 5px;
+    align-self: flex-start; /* Tetap mengunci judul di kiri atas kotak */
+}
+
+/* Wadah Jam */
+.clock-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Angka Jam & Menit (Besar) */
+#clock-time {
+    font-size: 2.8rem; /* Ukuran besar ala bento.me */
+    color: var(--text-main); /* Mengikuti warna teks utama halamanmu */
+    line-height: 1;
+}
+
+/* Angka Detik (Mengecil di atas / Superscript) */
+#clock-seconds {
+    font-size: 1.4rem; /* Setengah dari ukuran jam */
+    color: var(--accent); /* Warna ungu aksen Catppuccin */
+    line-height: 1;
+    margin-left: 2px;
+}
+
+/* Keterangan Lokasi di Bawah Jam */
+.clock-location {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0;
+}
+/* ======================================================== */
+/* TRANSISI RESPONSIF BENTO.ME (3 KOLOM -> 2 KOLOM -> 1 KOLOM) */
+/* ======================================================== */
+
+/* 1. FASE TABLET (Sama persis kayak Gambar 1 & Gambar 2 kamu) */
+@media screen and (max-width: 1024px) {
+    .bento-container { 
+        /* Turunin dari 6 kolom jadi 4 kolom. 
+           Karena kotak besarmu span 2, otomatis bakal jejer 2-2 ke bawah! */
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    
+    /* Gak perlu ubah span kotak. Biarkan sistem Grid yang ngatur otomatis. */
+}
+
+/* 2. FASE HP KECIL (Lebar layar di bawah 600px) */
+@media screen and (max-width: 600px) {
+    .bento-container { 
+        /* Turunin jadi 2 kolom pembagi */
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 0 15px;
+    }
+    
+    /* Paksa kotak besar mekar full mengisi 2 kolom (1 baris penuh) */
+    .box-profile, 
+    .box-info, 
+    .box-player, 
+    .box-social, 
+    .box-watching {
+        grid-column: span 2 !important; 
+        grid-row: auto !important; /* Biar Music Player gak manjang ke bawah lagi di HP */
+    }
+
+    /* Kotak Main & Mood tetep span 1, biar estetik tetep jejer berdua di HP */
+    .box-small-1, 
+    .box-small-2 {
+        grid-column: span 1 !important;
+    }
+
+    /* Penyesuaian font jam biar gak kegedean di HP */
+    #clock-time { font-size: 2.3rem; }
+    #clock-seconds { font-size: 1.1rem; }
 }
