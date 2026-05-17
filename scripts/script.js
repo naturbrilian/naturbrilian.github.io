@@ -345,6 +345,244 @@ const blogPosts = [
             jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
         }
     },
+    {
+        id: "apakah-tema-windows-10-masih-bisa-digunakan-saat-kamu-mengunakan-windows-11",
+        date: "19 February 2023",
+        category: "Themes",
+        image: "/assets/image-39.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Apakah Tema Windows 10 masih bisa digunakan saat kamu mengunakan Windows 11?",
+            en: "Can Windows 10 themes still be used when you are using Windows 11?",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "cara menerapkan tema windows 10 ke 11",
+            en: "how to apply windows 10 theme to 11",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "nanako-music-player-concept-a-k-a-nanako-skins",
+        date: "09 August 2022",
+        category: "Themes",
+        image: "/assets/image-461.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Konsep Nanako Music Player?",
+            en: "Nanako Music Player Concept?",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Aku gak tau judul artikel nya apa, um Nanako Skin?",
+            en: "I dont know what a title say, um Nanako Skins?",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "mahjong-soul-on-desktop",
+        date: "29 April 2022",
+        category: "Tutorial",
+        image: "/assets/20220429092614.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Mahjong Soul on Desktop",
+            en: "Mahjong Soul on Desktop",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "cara menjalankan Mahjong Soul seperti aplikasi mandiri (tutorial sudah usang)",
+            en: "how to run Mahjong Soul as a standalone application (tutorial is outdated)",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "anniversary-proyek-gingalibadeidara-works-yang-ke-8",
+        date: "28 February 2022",
+        category: "Project",
+        image: "/assets/image-54.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Anniversary Proyek Gingalibadeidara Works yang ke 8",
+            en: "Anniversary of gingalibadeidara works 8 years (from Blogging until Translations Project)",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "8 tahun sudah proyek berjalan, dan sekaligus komentar dari author",
+            en: "8 years my project run, and the commentaries author",
+            jp: "ウェブサイトやドメインの価格は、今後も上昇し続けるだろう。"
+        }
+    },
+    {
+        id: "happy-new-year-2022",
+        date: "25 February 2022",
+        category: "Tutorial",
+        image: "/assets/llenn.BU9zeOdz_Zfa2VF.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Tahun Baru 2022",
+            en: "Happy New Year 2022 but its too late",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Tulisan blog di tahun 2022, tapi terlambat dikit gak ngaruh",
+            en: "A blog post from 2022, but it’s a little late",
+            jp: "2022年のブログ記事だけど、少し遅れても問題ない"
+        }
+    },
+    {
+        id: "tips-trik-cara-mengunci-akun-facebook-tidak-bekerja-untuk-saat-ini",
+        date: "08 June 2021",
+        category: "Tutorial",
+        image: "/assets/rumah.CTmkZ41B_1doc2t.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Tips & Trik cara mengunci akun Facebook (Tidak bekerja untuk saat ini)",
+            en: "Tips & Tricks how to lock Facebook account (Not working at the moment)",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Tutorial sudah tidak bekerja lagi, karena sudah bisa diakses fiturnya",
+            en: "The tutorial no longer works because the feature is now available",
+            jp: "このチュートリアルは、その機能が利用可能になったため、現在使用できません"
+        }
+    },
+    {
+        id: "its-been-a-long-time-since-updating-this-blog",
+        date: "13 April 2021",
+        category: "Blog",
+        image: "/assets/75c7431c-d027-409f-bc30-aed9cf1a7831.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Sudah lama tidak memperbarui blog",
+            en: "It's been a long time since updating this blog",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Cuma keluh kesah penulis dengan ABK Tunagrahita",
+            en: "Just the author's thoughts on ABK with Mental Retardation",
+            jp: "このチュートリアルは、その機能が利用可能になったため、現在使用できません"
+        }
+    },
+    {
+        id: "pengumuman-sebuah-proyek-baru",
+        date: "27 January 2021",
+        category: "Fansubs",
+        image: "/assets/image-68.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Pengumuman sebuah project baru",
+            en: "Announcement of a new project",
+            jp: "翻訳プロジェクトのウェブサイト用のドメイン設定方法が分からず、費用も限られている？ FansubIDなら無料のサブドメインが利用できます。"
+        },
+        desc: {
+            id: "Pengumuman sebuah proyek & terjemahan penggemar",
+            en: "Announcement of a project & fan translation",
+            jp: "プロジェクトの発表とファンによる翻訳"
+        }
+    },
+    {
+        id: "what-are-your-hopes-for-2021",
+        date: "28 Desember 2020",
+        category: "Themes",
+        image: "/assets/couple.CoLiFNiF_ecXSq.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Apa harapanmu di tahun 2021 nanti?",
+            en: "What are your hopes for 2021?",
+            jp: "2021年にどんなことを期待していますか？"
+        },
+        desc: {
+            id: "Postingan untuk penutup tahun 2020",
+            en: "Posts for the end of 2020",
+            jp: "2020年末の投稿"
+        }
+    },
+    {
+        id: "first-post-on-decembers",
+        date: "02 Desember 2020",
+        category: "Blog",
+        image: "/assets/45a57fb6-7736-4caa-8548-db4bcf272eb3.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Tulisan pertama di bulan Desember",
+            en: "First Post on December's",
+            jp: "12月の最初の投稿"
+        },
+        desc: {
+            id: "Postingan untuk penutup tahun 2020",
+            en: "This post only available on English",
+            jp: "2020年末の投稿"
+        }
+    },
+    {
+        id: "the-old-project-was-suddenly-raised-again",
+        date: "14 October 2020",
+        category: "Blog",
+        image: "/assets/book.wOCt5fU__Zu4whs.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Proyek lama tiba-tiba nongol kembali karena sebuah komentar",
+            en: "Old project suddenly resurfaces due to a comment",
+            jp: "あるコメントがきっかけで、古いプロジェクトが突然再浮上"
+        },
+        desc: {
+            id: "Masih ingatkah, kalau dulu aku pernah membuat kustom ikon untuk salah satu aplikasi?",
+            en: "Do you still remember, that I once made a custom icon for one of the applications?",
+            jp: "私が以前、あるアプリケーション用にカスタムアイコンを作成したことを覚えていますか？"
+        }
+    },
+    {
+        id: "in-the-near-future-i-will-have-a-web-page",
+        date: "10 October 2020",
+        category: "Blog",
+        image: "/assets/137479f0-f919-48fe-86b9-0d318efe8e7b.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Untuk kedepannya, aku akan memiliki halaman web",
+            en: "In the near future, I will have a web page",
+            jp: "近い将来、私はウェブページを開設する予定です。"
+        },
+        desc: {
+            id: "Semua bermula dari sini, sebuah keinginan ingin memiliki halaman utama",
+            en: "It all started here, a desire to have a homepage",
+            jp: "すべてはここから始まった。ホームページを持ちたいという願望から。"
+        }
+    },
+    {
+        id: "making-girls-frontline-themes-but-for-browsers-chrome",
+        date: "20 August 2020",
+        category: "Themes",
+        image: "/assets/bd373785-ae6e-40e3-9b73-4f7020f272ac.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Membuat tema Girls' Frontline untuk browser Chrome",
+            en: "Making Girls Frontline Themes for Browsers Chrome",
+            jp: "Chromeブラウザ用のドールズフロントラインテーマを作成する"
+        },
+        desc: {
+            id: "Ini adalah lanjutan dari tema windows 7/10 Girls' Frontliine yang dibuat oleh Desonime, hanya untuk melengkapi saja",
+            en: "This is a continuation of the Girls' Frontline windows 7/10 theme created by Desonime, just to complete it.",
+            jp: "これは、Desonimeが作成したドールズフロントラインのウィンドウ7/10テーマの続きで、完成させるためのものです。"
+        }
+    },
+    {
+        id: "i-returned-with-a-strange-strange-experiment",
+        date: "12 June 2020",
+        category: "Themes",
+        image: "/assets/e13c3a37-bbd3-4ca4-ac9f-17c27fef65e6.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Saya kembali dengan sebuah eksperimen baru",
+            en: "I returned with a strange strange experiment",
+            jp: "Chromeブラウザ用のドールズフロントラインテーマを作成する"
+        },
+        desc: {
+            id: "Ini adalah lanjutan dari tema windows 7/10 Girls' Frontliine yang dibuat oleh Desonime, hanya untuk melengkapi saja",
+            en: "This is a continuation of the Girls' Frontline windows 7/10 theme created by Desonime, just to complete it.",
+            jp: "これは、Desonimeが作成したドールズフロントラインのウィンドウ7/10テーマの続きで、完成させるためのものです。"
+        }
+    },
 
     
 ];

@@ -305,7 +305,7 @@ nav {
 /* --- HERO SECTION (Halaman Utama) --- */
 .hero {
     /* Gunakan background-image agar spesifik */
-    background-image: var(--hero-overlay), url('/assets-hd/my-avatar.webp');
+    background-image: var(--hero-overlay), url('../assets-hd/my-avatar.webp');
     background-color: var(--bg-surface); /* Warna cadangan jika gambar gagal dimuat */
     background-size: cover;
     background-position: center;
@@ -1636,6 +1636,7 @@ body {
 .markdown-body p {
     margin-bottom: 20px;
     text-align: left; /* Markdown aslinya rata kiri, bukan justify */
+    color: var(--text-muted);
 }
 
 .markdown-body a {

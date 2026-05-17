@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemutar Musik dengan Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <div class="player-section">
+            <div class="track-info">
+                <h2 id="track-title">Pilih Lagu...</h2>
+                <p id="track-artist">-</p>
+            </div>
+            
+            <audio id="audio-player"></audio>
+            
+            <div class="progress-container">
+                <span id="current-time">0:00</span>
+                <input type="range" id="progress-bar" value="0" max="100">
+                <span id="duration">0:00</span>
+            </div>
+
+            <div class="controls">
+                <button id="prev-btn">⏮</button>
+                <button id="play-pause-btn">▶ Play</button>
+                <button id="next-btn">⏭</button>
+            </div>
+        </div>
+
+        <div class="playlist-section">
+            <h3>Daftar Putar</h3>
+            <ul id="playlist-list">
+                </ul>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

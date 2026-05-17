@@ -1636,6 +1636,7 @@ body {
 .markdown-body p {
     margin-bottom: 20px;
     text-align: left; /* Markdown aslinya rata kiri, bukan justify */
+    color: var(--text-muted);
 }
 
 .markdown-body a {
