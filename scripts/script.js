@@ -583,6 +583,108 @@ const blogPosts = [
             jp: "これは、Desonimeが作成したドールズフロントラインのウィンドウ7/10テーマの続きで、完成させるためのものです。"
         }
     },
+    {
+        id: "last-project-for-go-for-dream",
+        date: "12 January 2019",
+        category: "Blog",
+        image: "/assets/9971ee31-647d-476e-a570-446ed5c1e41d.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Project terakhir untuk Go For Dream",
+            en: "Last Project for Go For Dream",
+            jp: "Chromeブラウザ用のドールズフロントラインテーマを作成する"
+        },
+        desc: {
+            id: "Kontribusi terakhir untuk seri webtoon yang dibuat bersama teman sekolah kami",
+            en: "The last contribution to the webtoon series created with our school friends",
+            jp: "これは、Desonimeが作成したドールズフロントラインのウィンドウ7/10テーマの続きで、完成させるためのものです。"
+        }
+    },
+ {
+        id: "proyek-komik-telah-selesai-go-for-dream",
+        date: "28 December 2018",
+        category: "Blog",
+        image: "/assets/image-11.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Proyek komik teleah selesai (Go For Dream)",
+            en: "Comics Project is Done (Go For Dream)",
+            jp: "最後のプロジェクト"
+        },
+        desc: {
+            id: "Setelah beberapa bulan berkontribusi, akhirnya ini adalah kontribusi terakhirku",
+            en: "After several months of contributing, this is finally my last contribution.",
+            jp: "数ヶ月間投稿を続けてきましたが、これが私の最後の投稿となります。"
+        }
+    },
+    {
+        id: "last-project",
+        date: "26 December 2018",
+        category: "Blog",
+        image: "/assets/f3a0b541-6416-41cd-ae2a-8d1eb3cd4413.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Proyek terakhir",
+            en: "Last Project",
+            jp: "最後のプロジェクト"
+        },
+        desc: {
+            id: "Pratinjau lineart desain karakter untuk serial webtoon Go For Dream",
+            en: "Character design lineart preview for webtoon series Go For Dream",
+            jp: "ウェブトゥーンシリーズ「Go For Dream」のキャラクターデザイン線画プレビュー"
+        }
+    },
+    {
+        id: "welcome-to-new-blog",
+        date: "23 December 2018",
+        category: "Blog",
+        image: "/assets/14537c74-bdc7-4746-bed4-935b53e87ce0.webp",
+        link: "artikel-2.html",
+        title: {
+            id: "Selamat datang di blog baruku",
+            en: "Welcome to new blog",
+            jp: "新しいブログへようこそ"
+        },
+        desc: {
+            id: "Habis pindahan ceritanya, jadi selamat datang di halaman web sekaligus blog ku yang baru",
+            en: "After moving, so welcome to my new web page and blog.",
+            jp: "ストーリーを移転したので、私の新しいウェブページとブログへようこそ。"
+        }
+    },
+    {
+        id: "proyek-lama-yang-baru-saja-saya-posting-di-blog-pribadi",
+        date: "04 October 2018",
+        category: "Blog",
+        image: "/assets/image-8.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Yah, ini project lamaku",
+            en: "Yes, this is my old project",
+            jp: "以前作成したプロジェクトを、私の個人ブログに投稿しました。"
+        },
+        desc: {
+            id: "Habis pindahan ceritanya, jadi selamat datang di halaman web sekaligus blog ku yang baru",
+            en: "After moving, so welcome to my new web page and blog.",
+            jp: "ストーリーを移転したので、私の新しいウェブページとブログへようこそ。"
+        }
+    },
+    {
+        id: "jenis-dan-ciri-ciri-kamera",
+        date: "15 August 2015",
+        category: "Definition",
+        image: "/assets/thumbnail-kamera.png",
+        link: "artikel-2.html",
+        title: {
+            id: "Jenis & ciri kamera",
+            en: "Types and Features of Cameras",
+            jp: "カメラを理解する"
+        },
+        desc: {
+            id: "Penjelasan singkat tentang apa itu kamera dan jenis-jenisnya",
+            en: "A brief explanation of what a camera is and its types",
+            jp: "カメラとは何か、そしてその種類についての簡単な説明"
+        }
+    },
 
     
 ];
