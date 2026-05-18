@@ -305,7 +305,7 @@ nav {
 /* --- HERO SECTION (Halaman Utama) --- */
 .hero {
     /* Gunakan background-image agar spesifik */
-    background-image: var(--hero-overlay), url('../assets-hd/my-avatar.webp');
+    background-image: var(--hero-overlay), url('/assets-hd/my-avatar.webp');
     background-color: var(--bg-surface); /* Warna cadangan jika gambar gagal dimuat */
     background-size: cover;
     background-position: center;
@@ -2056,7 +2056,6 @@ body {
 
 #statuscafe {
     padding: .0em;
-    background-color: var(--bg-base);
     border: 0px solid midnightblue;
     text-align: left !important;
 }
@@ -2090,15 +2089,15 @@ body {
     /* RAHASIANYA DI SINI: Bagi layar jadi 6 potongan kecil */
     grid-template-columns: repeat(6, 1fr); 
     gap: 20px;
-    max-width: 1200px; 
+    max-width: 1300px; 
     width: 100%;
-    margin: 40px auto 80px auto;
-    padding: 0 20px;
+    margin: 40px auto 50px auto;
+    padding: 0 10px;
 }
 
 .bento-box {
     background-color: var(--bg-surface); 
-    border: 1px solid var(--border-col);
+    border: 0px solid var(--border-col);
     border-radius: 24px;
     padding: 24px;
     display: flex;
@@ -2144,7 +2143,7 @@ body {
 .box-player {
     grid-column: span 2; /* Makan 2 kolom di Kiri Tengah */
     grid-row: span 2;    /* Memanjang 2 baris ke bawah */
-    background-color: var(--bg-card); /* Warna beda dikit biar menonjol */
+    background-color: var(--bg-surface); /* Warna beda dikit biar menonjol */
     justify-content: flex-start; 
 }
 
@@ -2183,14 +2182,13 @@ body {
 .bento-sub-box {
     flex: 1; /* Membagi ukuran 50:50 yang adil */
     background-color: var(--bg-surface); 
-    border: 1px solid var(--border-col);
+    border: 0px solid var(--border-col);
     border-radius: 24px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
 }
 
