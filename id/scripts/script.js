@@ -735,3 +735,47 @@ function startClock() {
 
 // Langsung panggil fungsinya di sini secara terbuka
 startClock();
+
+const lastfmUser = "naturbrilian"; 
+const lastfmApiKey = "411b298c830d3599a94c097d70bc953e"; 
+const lastfmUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=naturbrilian&api_key=411b298c830d3599a94c097d70bc953e&format=json&limit=1`;
+
+async function getRecentTrack() {
+    try {
+        const response = await fetch(lastfmUrl);
+        const data = await response.json();
+        
+        // Ambil lagu urutan pertama (paling baru)
+        const track = data.recenttracks.track[0];
+        
+        // Cek apakah lagunya lagi diputar SEKARANG
+        const isPlaying = track['@attr'] && track['@attr'].nowplaying === 'true';
+        
+        // Update teks di HTML
+        document.getElementById('lastfm-title').textContent = track.name;
+        document.getElementById('lastfm-artist').textContent = track.artist['#text'];
+        
+        // Update Badge kalau lagi diputar
+        if (isPlaying) {
+            document.getElementById('lastfm-badge').textContent = '🎧 Now Playing';
+        } else {
+            document.getElementById('lastfm-badge').textContent = '🎵 Recently Played';
+        }
+
+        // Update gambar cover (index [2] biasanya ukurannya pas/medium)
+        if (track.image[2]['#text']) {
+            document.getElementById('lastfm-cover').src = track.image[2]['#text'];
+        }
+
+    } catch (error) {
+        console.error("Gagal narik data Last.fm:", error);
+        document.getElementById('lastfm-title').textContent = "Failed to load";
+        document.getElementById('lastfm-artist').textContent = "Connection error";
+    }
+}
+
+// Jalankan fungsi saat web dibuka
+getRecentTrack();
+
+// Opsional: Auto-refresh tiap 30 detik biar datanya update terus
+setInterval(getRecentTrack, 30000);

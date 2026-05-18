@@ -1058,3 +1058,123 @@ function startClock() {
 
 // Langsung panggil fungsinya di sini secara terbuka
 startClock();
+
+// Langsung panggil fungsinya di sini secara terbuka
+startClock();
+
+const lastfmUser = "naturbrilian"; 
+const lastfmApiKey = "411b298c830d3599a94c097d70bc953e"; 
+const lastfmUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=naturbrilian&api_key=411b298c830d3599a94c097d70bc953e&format=json&limit=1`;
+
+async function getRecentTrack() {
+    try {
+        const response = await fetch(lastfmUrl);
+        const data = await response.json();
+        
+        // Ambil lagu urutan pertama (paling baru)
+        const track = data.recenttracks.track[0];
+        
+        // Cek apakah lagunya lagi diputar SEKARANG
+        const isPlaying = track['@attr'] && track['@attr'].nowplaying === 'true';
+        
+        // Update teks di HTML
+        document.getElementById('lastfm-title').textContent = track.name;
+        document.getElementById('lastfm-artist').textContent = track.artist['#text'];
+        
+        // Update Badge kalau lagi diputar
+        if (isPlaying) {
+            document.getElementById('lastfm-badge').textContent = '🎧 Now Playing';
+        } else {
+            document.getElementById('lastfm-badge').textContent = '🎵 Recently Played';
+        }
+
+        // Update gambar cover (index [2] biasanya ukurannya pas/medium)
+        if (track.image[2]['#text']) {
+            document.getElementById('lastfm-cover').src = track.image[2]['#text'];
+        }
+
+    } catch (error) {
+        console.error("Gagal narik data Last.fm:", error);
+        document.getElementById('lastfm-title').textContent = "Failed to load";
+        document.getElementById('lastfm-artist').textContent = "Connection error";
+    }
+}
+
+// Jalankan fungsi saat web dibuka
+getRecentTrack();
+
+// Opsional: Auto-refresh tiap 30 detik biar datanya update terus
+setInterval(getRecentTrack, 30000);
+
+// Ganti dengan data punyamu!
+const lfmUser = "naturbrilian"; 
+const lfmApiKey = "API_KEY_KAMU"; 
+// limit=5 artinya narik 5 lagu terakhir. Bisa diganti jadi 10 atau berapapun.
+const lfmUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=naturbrilian&api_key=411b298c830d3599a94c097d70bc953e&format=json&limit=5`;
+
+// Fungsi ajaib untuk ngubah waktu jadi "11h ago"
+function timeAgo(unixTimestamp) {
+    const date = new Date(unixTimestamp * 1000);
+    const now = new Date();
+    const seconds = Math.round((now - date) / 1000);
+    const minutes = Math.round(seconds / 60);
+    const hours = Math.round(minutes / 60);
+    const days = Math.round(hours / 24);
+
+    if (seconds < 60) return "Just now";
+    else if (minutes < 60) return `${minutes}m ago`;
+    else if (hours < 24) return `${hours}h ago`;
+    else return `${days}d ago`;
+}
+
+async function renderLastfmList() {
+    try {
+        const response = await fetch(lfmUrl);
+        const data = await response.json();
+        const tracks = data.recenttracks.track;
+        const container = document.getElementById('lastfm-track-list');
+        
+        container.innerHTML = ''; // Hapus tulisan "Fetching tracks..."
+
+        tracks.forEach(track => {
+            // Cek status "Now Playing"
+            const isPlaying = track['@attr'] && track['@attr'].nowplaying === 'true';
+            
+            // Set waktu
+            let timeText = "Now";
+            if (!isPlaying && track.date) {
+                timeText = timeAgo(track.date.uts);
+            }
+
+            // Ambil gambar cover (pakai ukuran medium index [1])
+            let coverSrc = track.image[1]['#text'];
+            
+            // Kalau covernya kosong, tampilkan icon nada pakai CSS background
+            let coverHTML = coverSrc 
+                ? `<img src="${coverSrc}" class="track-cover" alt="cover">`
+                : `<div class="track-cover">🎵</div>`;
+
+            // Rangkai elemen HTML-nya
+            const trackHTML = `
+                <div class="track-item">
+                    <div class="track-left">
+                        ${coverHTML}
+                        <div class="track-info">
+                            <p class="track-title">${track.name}</p>
+                            <p class="track-artist">${track.artist['#text']}</p>
+                        </div>
+                    </div>
+                    <div class="track-time">${timeText}</div>
+                </div>
+            `;
+            container.innerHTML += trackHTML;
+        });
+
+    } catch (error) {
+        console.error("Gagal konek ke Last.fm:", error);
+        document.getElementById('lastfm-track-list').innerHTML = '<p style="text-align:center;">Failed to load tracks.</p>';
+    }
+}
+
+// Eksekusi fungsinya
+renderLastfmList();
