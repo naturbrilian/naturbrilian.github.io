@@ -573,7 +573,7 @@ setInterval(getRecentTrack, 30000);
 
 // Ganti dengan data punyamu!
 const lfmUser = "naturbrilian"; 
-const lfmApiKey = "API_KEY_KAMU"; 
+const lfmApiKey = "411b298c830d3599a94c097d70bc953e"; 
 // limit=5 artinya narik 5 lagu terakhir. Bisa diganti jadi 10 atau berapapun.
 const lfmUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=naturbrilian&api_key=411b298c830d3599a94c097d70bc953e&format=json&limit=5`;
 

@@ -752,8 +752,8 @@ async function getRecentTrack() {
         const isPlaying = track['@attr'] && track['@attr'].nowplaying === 'true';
         
         // Update teks di HTML
-        document.getElementById('lastfm-title').textContent = track.name;
-        document.getElementById('lastfm-artist').textContent = track.artist['#text'];
+        document.getElementById('bento-lastfm-title').textContent = track.name;
+        document.getElementById('bento-lastfm-artist').textContent = track.artist['#text'];
         
         // Update Badge kalau lagi diputar
         if (isPlaying) {
@@ -764,13 +764,13 @@ async function getRecentTrack() {
 
         // Update gambar cover (index [2] biasanya ukurannya pas/medium)
         if (track.image[2]['#text']) {
-            document.getElementById('lastfm-cover').src = track.image[2]['#text'];
+            document.getElementById('bento-lastfm-cover').src = track.image[2]['#text'];
         }
 
     } catch (error) {
         console.error("Gagal narik data Last.fm:", error);
-        document.getElementById('lastfm-title').textContent = "Failed to load";
-        document.getElementById('lastfm-artist').textContent = "Connection error";
+        document.getElementById('bento-lastfm-title').textContent = "Failed to load";
+        document.getElementById('bento-lastfm-artist').textContent = "Connection error";
     }
 }
 
@@ -788,7 +788,7 @@ setInterval(getRecentTrack, 30000);
 
 // Ganti dengan data punyamu!
 const lfmUser = "naturbrilian"; 
-const lfmApiKey = "API_KEY_KAMU"; 
+const lfmApiKey = "411b298c830d3599a94c097d70bc953e"; 
 // limit=5 artinya narik 5 lagu terakhir. Bisa diganti jadi 10 atau berapapun.
 const lfmUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=naturbrilian&api_key=411b298c830d3599a94c097d70bc953e&format=json&limit=5`;
 
