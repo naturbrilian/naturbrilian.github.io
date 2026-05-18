@@ -87,7 +87,7 @@
     </nav>
 </header>
 
-<main class="page-container">
+ <main class="page-container">
         <div class="bento-container">
     
     <div class="bento-box box-profile">
@@ -100,7 +100,7 @@
     </div>
 
     <div class="bento-box box-info">
-        <h3>地方時</h3>
+        <h3>地域時刻</h3>
         <div class="clock-container">
             <span id="clock-time">00:00</span><span id="clock-seconds">00</span>
         </div>
@@ -136,24 +136,6 @@
         </div>
     </div>
 
-    <div class="bento-box box-social">
-        <h3>リンク</h3>
-        <div class="links-inline">
-            <a href="#">GitHub</a> | <a href="#">Mastodon</a>
-        </div>
-    </div>
-
-    <div class="bento-box box-combined-small">
-        <div class="bento-sub-box">
-            <h3 style="font-size: 14px; margin-bottom: 5px;">🎮 プレイ</h3>
-            <p style="color: var(--text-muted); font-size: 13px;">現在何もプレイしていません</p>
-        </div>
-        <div class="bento-sub-box">
-            <h3 style="font-size: 14px; margin-bottom: 5px;">☕ 調子</h3>
-            <p style="color: var(--text-muted); font-size: 13px;">コーヒーが必要</p>
-        </div>
-    </div>
-
     <div class="bento-box box-watching">
         <div class="watching-header">
             <span class="watching-badge">📺 最近視聴した動画</span>
@@ -167,8 +149,40 @@
         </div>
     </div>
 
+    <div class="bento-box box-combined-small">
+        <div class="bento-sub-box">
+            <h3 style="font-size: 14px; margin-bottom: 5px;">🎮 遊び</h3>
+            <p style="color: var(--text-muted); font-size: 13px;">現在何もプレイしていません</p>
+        </div>
+        <div class="bento-sub-box">
+            <h3 style="font-size: 14px; margin-bottom: 5px;">☕ 機嫌</h3>
+            <p style="color: var(--text-muted); font-size: 13px;">コーヒーはいかがですか？</p>
+        </div>
+    </div>
+
+    <div class="bento-box box-lastfm">
+    <div class="watching-header">
+        <span id="lastfm-badge">🎵 最近プレイしたゲーム</span>
+    </div>
+
+    <div class="watching-header">
+        <img id="watching-content" src="https://placehold.co/60x60/292C3C/C6D0F5?text=No+Cover" alt="Album Cover" class="cover-img">
+        <div class="track-info">
+            <h4 id="lastfm-title">読み込み中…</h4>
+            <p id="lastfm-artist">データを取得中...</p>
+        </div>
+    </div>
 </div>
-</main>
+
+    <div class="bento-box box-lastfm-list">
+    <div id="lastfm-track-list" class="track-list-container">
+        <p style="text-align: center; color: var(--text-muted);">トラックを取得中...</p>
+    </div>
+</div>
+
+</div>
+
+    </main>
 
 
     <footer id="kontak">

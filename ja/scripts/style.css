@@ -2519,3 +2519,160 @@ body {
     #clock-time { font-size: 2.3rem; }
     #clock-seconds { font-size: 1.1rem; }
 }
+
+.box-badge {
+    justify-content: flex-start;
+    margin-bottom: 15px; /* Gabungin aja di sini biar rapi */
+}
+
+.box-lastfm {
+    grid-column: span 2; /* Tetap makan 2 porsi biar sejajar */
+    justify-content: flex-start;
+    /* HAPUS align-self: start; BIAR TINGGINYA SEJAJAR SAMA KOTAK KAGUYA! */
+}
+
+/* GANTI TITIK (.) JADI PAGAR (#) KARENA DI HTML ITU ADALAH ID */
+#lastfm-badge {
+    background-color: var(--tag-bg);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.box-lastfm {
+    grid-column: span 2; /* 👈 Ini rahasianya! Samain angkanya dengan span milik Recently Watched */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Biar isinya pas di tengah secara vertikal */
+}
+
+/* ========================================= */
+/* LAST.FM RECENT TRACKS LIST                */
+/* ========================================= */
+
+.box-lastfm-list {
+    padding: 15px 10px 15px 15px; /* Sisi kanan agak dikurangin buat ruang scrollbar */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Wadah yang bisa di-scroll */
+.track-list-container {
+    overflow-y: auto;
+    max-height: 200px; /* Sesuaikan angka ini biar tingginya sejajar sama kotak sebelahnya! */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 5px; /* Jarak antara teks dan scrollbar */
+}
+
+/* Desain Scrollbar Custom (Biar elegan, gak kaku kayak bawaan Windows) */
+.track-list-container::-webkit-scrollbar {
+    width: 6px;
+}
+.track-list-container::-webkit-scrollbar-thumb {
+    background-color: #414559; /* Warna abu-abu gelap, sesuaikan dengan tema Catppuccin kamu */
+    border-radius: 10px;
+}
+
+/* Layout per-satu lagu */
+.track-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.track-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    min-width: 0; /* Mencegah teks nabrak keluar batas */
+}
+
+/* Kotak Cover/Icon */
+.track-cover {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #303446; /* Warna placeholder dari gambar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0; 
+}
+
+/* Judul Lagu (Warna Biru/Ungu) */
+.track-title {
+    color: #8caaee; /* Sesuaikan kode warnanya dengan aksen biru/ungu web kamu */
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Nama Artis (Putih) */
+.track-artist {
+    color: var(--text-main);
+    font-size: 0.8rem;
+    margin: 2px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Keterangan Waktu (11h ago) */
+.track-time {
+    color: var(--text-main);
+    font-size: 0.75rem;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+/* Layout untuk isi kotak Last.fm */
+.lastfm-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px; /* Sesuaikan jarak dengan badge atas */
+}
+
+/* Gambar Cover Album */
+.lastfm-content .cover-img {
+    width: 60px; /* Ukuran bebas, samain sama poster Kaguya juga boleh */
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Teks Judul & Artis */
+.track-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+    color: var(--text-main);
+    /* Biar teks kepanjangan otomatis kepotong jadi titik-titik (...) */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px; 
+}
+
+.track-info p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}

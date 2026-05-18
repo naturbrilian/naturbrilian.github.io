@@ -1059,8 +1059,6 @@ function startClock() {
 // Langsung panggil fungsinya di sini secara terbuka
 startClock();
 
-// Langsung panggil fungsinya di sini secara terbuka
-startClock();
 
 const lastfmUser = "naturbrilian"; 
 const lastfmApiKey = "411b298c830d3599a94c097d70bc953e"; 
